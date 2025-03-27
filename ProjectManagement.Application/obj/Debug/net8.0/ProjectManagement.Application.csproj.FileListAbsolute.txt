@@ -1,0 +1,17 @@
+D:\Others\ProjectManagement\ProjectManagement.Application\obj\Debug\net8.0\ProjectManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Others\ProjectManagement\ProjectManagement.Application\obj\Debug\net8.0\ProjectManagement.Application.AssemblyInfoInputs.cache
+D:\Others\ProjectManagement\ProjectManagement.Application\obj\Debug\net8.0\ProjectManagement.Application.AssemblyInfo.cs
+D:\Others\ProjectManagement\ProjectManagement.Application\obj\Debug\net8.0\ProjectManagement.Application.csproj.CoreCompileInputs.cache
+D:\Others\ProjectManagement\ProjectManagement.Application\bin\Debug\net8.0\ProjectManagement.Application.deps.json
+D:\Others\ProjectManagement\ProjectManagement.Application\bin\Debug\net8.0\ProjectManagement.Application.dll
+D:\Others\ProjectManagement\ProjectManagement.Application\bin\Debug\net8.0\ProjectManagement.Application.pdb
+D:\Others\ProjectManagement\ProjectManagement.Application\obj\Debug\net8.0\ProjectManagement.Application.csproj.AssemblyReference.cache
+D:\Others\ProjectManagement\ProjectManagement.Application\obj\Debug\net8.0\ProjectManagement.Application.dll
+D:\Others\ProjectManagement\ProjectManagement.Application\obj\Debug\net8.0\refint\ProjectManagement.Application.dll
+D:\Others\ProjectManagement\ProjectManagement.Application\obj\Debug\net8.0\ProjectManagement.Application.pdb
+D:\Others\ProjectManagement\ProjectManagement.Application\obj\Debug\net8.0\ref\ProjectManagement.Application.dll
+D:\Others\ProjectManagement\ProjectManagement.Application\bin\Debug\net8.0\ProjectManagement.Core.dll
+D:\Others\ProjectManagement\ProjectManagement.Application\bin\Debug\net8.0\ProjectManagement.Infrastructure.dll
+D:\Others\ProjectManagement\ProjectManagement.Application\bin\Debug\net8.0\ProjectManagement.Core.pdb
+D:\Others\ProjectManagement\ProjectManagement.Application\bin\Debug\net8.0\ProjectManagement.Infrastructure.pdb
+D:\Others\ProjectManagement\ProjectManagement.Application\obj\Debug\net8.0\ProjectM.6FAF72D3.Up2Date

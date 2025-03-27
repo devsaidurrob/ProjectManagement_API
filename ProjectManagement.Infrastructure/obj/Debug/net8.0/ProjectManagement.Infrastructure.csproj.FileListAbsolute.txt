@@ -1,0 +1,17 @@
+D:\Others\ProjectManagement\ProjectManagement.Infrastructure\bin\Debug\net8.0\ProjectManagement.Infrastructure.deps.json
+D:\Others\ProjectManagement\ProjectManagement.Infrastructure\bin\Debug\net8.0\ProjectManagement.Infrastructure.runtimeconfig.json
+D:\Others\ProjectManagement\ProjectManagement.Infrastructure\bin\Debug\net8.0\ProjectManagement.Infrastructure.dll
+D:\Others\ProjectManagement\ProjectManagement.Infrastructure\bin\Debug\net8.0\ProjectManagement.Infrastructure.pdb
+D:\Others\ProjectManagement\ProjectManagement.Infrastructure\bin\Debug\net8.0\ProjectManagement.Core.dll
+D:\Others\ProjectManagement\ProjectManagement.Infrastructure\bin\Debug\net8.0\ProjectManagement.Core.pdb
+D:\Others\ProjectManagement\ProjectManagement.Infrastructure\obj\Debug\net8.0\ProjectManagement.Infrastructure.csproj.AssemblyReference.cache
+D:\Others\ProjectManagement\ProjectManagement.Infrastructure\obj\Debug\net8.0\ProjectManagement.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Others\ProjectManagement\ProjectManagement.Infrastructure\obj\Debug\net8.0\ProjectManagement.Infrastructure.AssemblyInfoInputs.cache
+D:\Others\ProjectManagement\ProjectManagement.Infrastructure\obj\Debug\net8.0\ProjectManagement.Infrastructure.AssemblyInfo.cs
+D:\Others\ProjectManagement\ProjectManagement.Infrastructure\obj\Debug\net8.0\ProjectManagement.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Others\ProjectManagement\ProjectManagement.Infrastructure\obj\Debug\net8.0\ProjectM.60AD468C.Up2Date
+D:\Others\ProjectManagement\ProjectManagement.Infrastructure\obj\Debug\net8.0\ProjectManagement.Infrastructure.dll
+D:\Others\ProjectManagement\ProjectManagement.Infrastructure\obj\Debug\net8.0\refint\ProjectManagement.Infrastructure.dll
+D:\Others\ProjectManagement\ProjectManagement.Infrastructure\obj\Debug\net8.0\ProjectManagement.Infrastructure.pdb
+D:\Others\ProjectManagement\ProjectManagement.Infrastructure\obj\Debug\net8.0\ProjectManagement.Infrastructure.genruntimeconfig.cache
+D:\Others\ProjectManagement\ProjectManagement.Infrastructure\obj\Debug\net8.0\ref\ProjectManagement.Infrastructure.dll
