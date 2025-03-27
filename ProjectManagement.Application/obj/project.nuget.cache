@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "927kXFTFKBM=",
+  "dgSpecHash": "LuUramF7wKQ=",
   "success": true,
-  "projectFilePath": "D:\\Others\\ProjectManagement\\ProjectManagement.Application\\ProjectManagement.Application.csproj",
+  "projectFilePath": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\ProjectManagement.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SaidurRob\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\SaidurRob\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

@@ -8,6 +8,9 @@
 
   <ItemGroup>
     <Folder Include="Mapper\" />
+    <Folder Include="UseCases\EpicDetails\Query\" />
+    <Folder Include="UseCases\ProjectDetails\Command\" />
+    <Folder Include="UseCases\ProjectDetails\Query\" />
     <Folder Include="UseCases\UserDetails\Command\" />
   </ItemGroup>
 

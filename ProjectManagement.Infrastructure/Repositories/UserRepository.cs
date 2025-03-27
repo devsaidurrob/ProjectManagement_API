@@ -52,7 +52,7 @@ namespace ProjectManagement.Infrastructure.Repositories
             return await _context.Users.FirstOrDefaultAsync(u => u.Name == userName);
         }
 
-        public async Task<User> UpdateUserAsync(User user)
+        public async Task<User?> UpdateUserAsync(User user)
         {
             var existingUser = await _context.Users.FindAsync(user.Id);
             if (existingUser == null)

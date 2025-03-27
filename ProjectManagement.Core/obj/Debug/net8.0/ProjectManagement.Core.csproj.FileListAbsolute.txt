@@ -9,3 +9,15 @@ D:\Others\ProjectManagement\ProjectManagement.Core\obj\Debug\net8.0\ProjectManag
 D:\Others\ProjectManagement\ProjectManagement.Core\obj\Debug\net8.0\refint\ProjectManagement.Core.dll
 D:\Others\ProjectManagement\ProjectManagement.Core\obj\Debug\net8.0\ProjectManagement.Core.pdb
 D:\Others\ProjectManagement\ProjectManagement.Core\obj\Debug\net8.0\ref\ProjectManagement.Core.dll
+D:\Others\ProjectManagement\ProjectManagement_API\ProjectManagement.Core\bin\Debug\net8.0\ProjectManagement.Core.deps.json
+D:\Others\ProjectManagement\ProjectManagement_API\ProjectManagement.Core\bin\Debug\net8.0\ProjectManagement.Core.dll
+D:\Others\ProjectManagement\ProjectManagement_API\ProjectManagement.Core\bin\Debug\net8.0\ProjectManagement.Core.pdb
+D:\Others\ProjectManagement\ProjectManagement_API\ProjectManagement.Core\obj\Debug\net8.0\ProjectManagement.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Others\ProjectManagement\ProjectManagement_API\ProjectManagement.Core\obj\Debug\net8.0\ProjectManagement.Core.AssemblyInfoInputs.cache
+D:\Others\ProjectManagement\ProjectManagement_API\ProjectManagement.Core\obj\Debug\net8.0\ProjectManagement.Core.AssemblyInfo.cs
+D:\Others\ProjectManagement\ProjectManagement_API\ProjectManagement.Core\obj\Debug\net8.0\ProjectManagement.Core.csproj.CoreCompileInputs.cache
+D:\Others\ProjectManagement\ProjectManagement_API\ProjectManagement.Core\obj\Debug\net8.0\ProjectManagement.Core.sourcelink.json
+D:\Others\ProjectManagement\ProjectManagement_API\ProjectManagement.Core\obj\Debug\net8.0\ProjectManagement.Core.dll
+D:\Others\ProjectManagement\ProjectManagement_API\ProjectManagement.Core\obj\Debug\net8.0\refint\ProjectManagement.Core.dll
+D:\Others\ProjectManagement\ProjectManagement_API\ProjectManagement.Core\obj\Debug\net8.0\ProjectManagement.Core.pdb
+D:\Others\ProjectManagement\ProjectManagement_API\ProjectManagement.Core\obj\Debug\net8.0\ref\ProjectManagement.Core.dll

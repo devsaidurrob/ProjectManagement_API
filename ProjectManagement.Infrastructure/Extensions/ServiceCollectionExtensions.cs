@@ -12,8 +12,18 @@ namespace ProjectManagement.Infrastructure.Extensions
             //services.AddScoped(typeof(IGenericRepository<,>), typeof(GenericRepository<,>));
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
-            // Register specific repositories, if needed
+            // Register specific repositories
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IProjectRepository, ProjectRepository>();
+            services.AddScoped<ITaskItemRepository, TaskItemRepository>();
+            services.AddScoped<IEpicRepository, EpicRepository>();
+            services.AddScoped<ISprintRepository, SprintRepository>();
+            services.AddScoped<IStoryRepository, StoryRepository>();
+            services.AddScoped<IProjectMemberRepository, ProjectMemberRepository>();
+            services.AddScoped<IAcceptanceCriteriaRepository, AcceptanceCriteriaRepository>();
+            services.AddScoped<IActivityLogRepository, ActivityLogRepository>();
+            services.AddScoped<IAttachmentRepository, AttachmentRepository>();
+            services.AddScoped<ICommentRepository, CommentRepository>();
 
             return services;
         }

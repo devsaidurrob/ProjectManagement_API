@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tXtRfCxqk0Q=",
+  "dgSpecHash": "ugZViYKOjjE=",
   "success": true,
-  "projectFilePath": "D:\\Others\\ProjectManagement\\ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj",
+  "projectFilePath": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SaidurRob\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\SaidurRob\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

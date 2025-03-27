@@ -2923,11 +2923,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Others\\ProjectManagement\\ProjectManagement.Application\\ProjectManagement.Application.csproj",
+      "projectUniqueName": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\ProjectManagement.Application.csproj",
       "projectName": "ProjectManagement.Application",
-      "projectPath": "D:\\Others\\ProjectManagement\\ProjectManagement.Application\\ProjectManagement.Application.csproj",
+      "projectPath": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\ProjectManagement.Application.csproj",
       "packagesPath": "C:\\Users\\SaidurRob\\.nuget\\packages\\",
-      "outputPath": "D:\\Others\\ProjectManagement\\ProjectManagement.Application\\obj\\",
+      "outputPath": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2948,11 +2948,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Others\\ProjectManagement\\ProjectManagement.Core\\ProjectManagement.Core.csproj": {
-              "projectPath": "D:\\Others\\ProjectManagement\\ProjectManagement.Core\\ProjectManagement.Core.csproj"
+            "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\ProjectManagement.Core.csproj": {
+              "projectPath": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\ProjectManagement.Core.csproj"
             },
-            "D:\\Others\\ProjectManagement\\ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj": {
-              "projectPath": "D:\\Others\\ProjectManagement\\ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj"
+            "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj": {
+              "projectPath": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj"
             }
           }
         }
