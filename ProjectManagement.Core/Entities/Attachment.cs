@@ -14,7 +14,7 @@ namespace ProjectManagement.Core.Entities
         public string FileName { get; set; } = string.Empty;
         public string FilePath { get; set; } = string.Empty;
         public int TaskItemId { get; set; }
-        public virtual TaskItem TaskItem { get; set; } = new TaskItem();
+        public virtual TaskItem TaskItem { get; set; }
         public DateTime UploadedAt { get; set; }
     }
 }

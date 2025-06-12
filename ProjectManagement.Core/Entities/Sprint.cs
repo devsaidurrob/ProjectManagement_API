@@ -15,7 +15,7 @@ namespace ProjectManagement.Core.Entities
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public int ProjectId { get; set; }
-        public virtual Project Project { get; set; } = new Project();
-        public virtual ICollection<SprintTask> SprintTasks { get; set; } = new List<SprintTask>();
+        public virtual Project Project { get; set; }
+        public virtual ICollection<SprintTask> SprintTasks { get; set; }
     }
 }

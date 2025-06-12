@@ -12,8 +12,8 @@ namespace ProjectManagement.Core.Entities
         [Key]
         public int Id { get; set; }
         public int SprintId { get; set; }
-        public virtual Sprint Sprint { get; set; } = new Sprint();
+        public virtual Sprint Sprint { get; set; }
         public int TaskItemId { get; set; }
-        public virtual TaskItem TaskItem { get; set; } = new TaskItem();
+        public virtual TaskItem TaskItem { get; set; }
     }
 }

@@ -14,7 +14,7 @@ namespace ProjectManagement.Core.Entities
         public int TaskItemId { get; set; }
         public virtual TaskItem? TaskItem { get; set; } // Made nullable
         public int UserId { get; set; }
-        public virtual User User { get; set; } = new User();
+        public virtual User User { get; set; }
         public string Action { get; set; } = string.Empty;
         public DateTime Timestamp { get; set; }
     }

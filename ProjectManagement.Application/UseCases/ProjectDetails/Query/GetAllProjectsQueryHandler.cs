@@ -1,25 +1,30 @@
 using MediatR;
 using ProjectManagement.Core.Entities;
 using ProjectManagement.Infrastructure.Interfaces;
-using ProjectManagement.Infrastructure.Queries;
+using ProjectManagement.Application.UseCases.ProjectDetails.Query;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
+using ProjectManagement.Application.Dto;
+using AutoMapper;
 
-namespace ProjectManagement.Infrastructure.Handlers
+namespace ProjectManagement.Application.UseCases.ProjectDetails.Handlers
 {
-    public class GetAllProjectsQueryHandler : IRequestHandler<GetAllProjectsQuery, IEnumerable<Project>>
+    public class GetAllProjectsQueryHandler : IRequestHandler<GetAllProjectsQuery, IEnumerable<ProjectDto>>
     {
         private readonly IProjectRepository _projectRepository;
-
-        public GetAllProjectsQueryHandler(IProjectRepository projectRepository)
+        private readonly IMapper _mapper;
+        public GetAllProjectsQueryHandler(IProjectRepository projectRepository, IMapper mapper)
         {
             _projectRepository = projectRepository;
+            _mapper = mapper;
         }
 
-        public async Task<IEnumerable<Project>> Handle(GetAllProjectsQuery request, CancellationToken cancellationToken)
+        public async Task<IEnumerable<ProjectDto>> Handle(GetAllProjectsQuery request, CancellationToken cancellationToken)
         {
-            return await _projectRepository.GetAllProjectsAsync();
+            var projects = await _projectRepository.GetAllProjectsAsync();
+            var projectDtos = _mapper.Map<IEnumerable<ProjectDto>>(projects);
+            return projectDtos;
         }
     }
 }

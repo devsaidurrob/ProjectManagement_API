@@ -1,10 +1,11 @@
 using MediatR;
+using ProjectManagement.Application.Dto;
 using ProjectManagement.Core.Entities;
 using System.Collections.Generic;
 
-namespace ProjectManagement.Infrastructure.Queries
+namespace ProjectManagement.Application.UseCases.ProjectDetails.Query
 {
-    public class GetAllProjectsQuery : IRequest<IEnumerable<Project>>
+    public class GetAllProjectsQuery : IRequest<IEnumerable<ProjectDto>>
     {
     }
 }

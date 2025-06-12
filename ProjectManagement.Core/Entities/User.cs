@@ -14,6 +14,6 @@ namespace ProjectManagement.Core.Entities
         public string Name { get; set; } = string.Empty;
         public string Email { get; set; } = string.Empty;
         public string PasswordHash { get; set; } = string.Empty;
-        public virtual ICollection<Project> Projects { get; set; } = new List<Project>();
+        public virtual ICollection<Project> Projects { get; set; }
     }
 }

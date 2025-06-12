@@ -1,12 +1,12 @@
 using MediatR;
 using ProjectManagement.Core.Entities;
 using ProjectManagement.Infrastructure.Interfaces;
-using ProjectManagement.Infrastructure.Queries;
+using ProjectManagement.Application.UseCases.ProjectDetails.Query;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ProjectManagement.Infrastructure.Handlers
+namespace ProjectManagement.Application.UseCases.ProjectDetails.Handlers
 {
     public class GetProjectByUserQueryHandler : IRequestHandler<GetProjectByUserQuery, IEnumerable<Project>>
     {

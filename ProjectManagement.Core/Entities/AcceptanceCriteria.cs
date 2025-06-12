@@ -13,7 +13,7 @@ namespace ProjectManagement.Core.Entities
         public int Id { get; set; }
         public string Description { get; set; } = string.Empty; // Initialize with a default value
         public int StoryId { get; set; }
-        public virtual Story Story { get; set; } = new Story(); // Initialize with a default value
+        public virtual Story Story { get; set; } // Initialize with a default value
         public bool IsMet { get; set; }
     }
 }

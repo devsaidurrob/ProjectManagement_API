@@ -18,9 +18,9 @@ namespace ProjectManagement.Core.Entities
         public bool IsCompleted { get; set; }
         public int AssignedUserId { get; set; } // Assigned user
         public virtual User AssignedUser { get; set; } = new User();
-        public virtual ICollection<SprintTask> SprintTasks { get; set; } = new List<SprintTask>(); // Linking with Sprint
-        public virtual ICollection<Comment> Comments { get; set; } = new List<Comment>();
-        public virtual ICollection<Attachment> Attachments { get; set; } = new List<Attachment>();
-        public virtual ICollection<ActivityLog> ActivityLogs { get; set; } = new List<ActivityLog>();
+        public virtual ICollection<SprintTask> SprintTasks { get; set; } // Linking with Sprint
+        public virtual ICollection<Comment> Comments { get; set; }
+        public virtual ICollection<Attachment> Attachments { get; set; }
+        public virtual ICollection<ActivityLog> ActivityLogs { get; set; }
     }
 }

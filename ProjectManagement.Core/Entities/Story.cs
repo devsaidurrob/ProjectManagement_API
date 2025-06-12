@@ -15,6 +15,6 @@ namespace ProjectManagement.Core.Entities
         public string Description { get; set; } = string.Empty;
         public int EpicId { get; set; }
         public virtual Epic Epic { get; set; } = new Epic();
-        public virtual ICollection<TaskItem> Tasks { get; set; } = new List<TaskItem>();
+        public virtual ICollection<TaskItem> Tasks { get; set; }
     }
 }

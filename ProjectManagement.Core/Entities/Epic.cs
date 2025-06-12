@@ -14,7 +14,7 @@ namespace ProjectManagement.Core.Entities
         public string Title { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
         public int ProjectId { get; set; }
-        public virtual Project Project { get; set; } = new Project();
-        public virtual ICollection<Story> Stories { get; set; } = new List<Story>();
+        public virtual Project Project { get; set; }
+        public virtual ICollection<Story> Stories { get; set; }
     }
 }

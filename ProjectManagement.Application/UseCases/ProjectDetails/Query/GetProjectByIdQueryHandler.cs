@@ -1,24 +1,29 @@
 using MediatR;
 using ProjectManagement.Core.Entities;
 using ProjectManagement.Infrastructure.Interfaces;
-using ProjectManagement.Infrastructure.Queries;
+using ProjectManagement.Application.UseCases.ProjectDetails.Query;
 using System.Threading;
 using System.Threading.Tasks;
+using ProjectManagement.Application.Dto;
+using AutoMapper;
 
-namespace ProjectManagement.Infrastructure.Handlers
+namespace ProjectManagement.Application.UseCases.ProjectDetails.Handlers
 {
-    public class GetProjectByIdQueryHandler : IRequestHandler<GetProjectByIdQuery, Project>
+    public class GetProjectByIdQueryHandler : IRequestHandler<GetProjectByIdQuery, ResponseDto<ProjectDto>>
     {
         private readonly IProjectRepository _projectRepository;
-
-        public GetProjectByIdQueryHandler(IProjectRepository projectRepository)
+        private readonly IMapper _mapper;
+        public GetProjectByIdQueryHandler(IProjectRepository projectRepository, IMapper mapper)
         {
             _projectRepository = projectRepository;
+            _mapper = mapper;
         }
 
-        public async Task<Project> Handle(GetProjectByIdQuery request, CancellationToken cancellationToken)
+        public async Task<ResponseDto<ProjectDto>> Handle(GetProjectByIdQuery request, CancellationToken cancellationToken)
         {
-            return await _projectRepository.GetProjectByIdAsync(request.Id);
+            var project = await _projectRepository.GetProjectByIdAsync(request.Id);
+            var projectDto = _mapper.Map<ProjectDto>(project);
+            return ResponseDto<ProjectDto>.SuccessResponse(projectDto);
         }
     }
 }
