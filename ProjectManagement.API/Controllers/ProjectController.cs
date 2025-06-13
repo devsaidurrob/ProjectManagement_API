@@ -55,7 +55,7 @@ namespace ProjectManagement.API.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<ResponseDto<ProjectDto>> DeleteProject(int id)
+        public async Task<ResponseDto<bool>> DeleteProject(int id)
         {
             var command = new DeleteProjectCommand(id);
             var result = await _mediator.Send(command);

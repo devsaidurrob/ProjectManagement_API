@@ -1,6 +1,9 @@
+using MediatR;
+using ProjectManagement.Application.Dto;
+
 namespace ProjectManagement.Application.UseCases.ProjectDetails.Commands
 {
-    public class CreateProjectCommand
+    public class CreateProjectCommand : IRequest<ResponseDto<ProjectDto>>
     {
         public string Name { get; set; }
         public string Description { get; set; }

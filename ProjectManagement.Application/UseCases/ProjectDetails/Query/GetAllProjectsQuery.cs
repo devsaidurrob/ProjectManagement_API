@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace ProjectManagement.Application.UseCases.ProjectDetails.Query
 {
-    public class GetAllProjectsQuery : IRequest<IEnumerable<ProjectDto>>
+    public class GetAllProjectsQuery : IRequest<ResponseDto<IEnumerable<ProjectDto>>>
     {
     }
 }
