@@ -56,5 +56,13 @@ namespace ProjectManagement.Infrastructure.Repositories
             }
             return epic;
         }
+
+        public async Task<IEnumerable<Epic>> GetEpicsByProjectIdAsync(int projectId)
+        {
+            return await _context.Epics
+                .Include(e => e.Stories)
+                .Where(e => e.ProjectId == projectId)
+                .ToListAsync();
+        }
     }
 }

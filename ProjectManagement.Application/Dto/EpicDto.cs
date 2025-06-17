@@ -10,6 +10,6 @@ namespace ProjectManagement.Application.Dto
         public string Description { get; set; } = string.Empty;
         public int ProjectId { get; set; }
         //public ProjectDto Project { get; set; } = new ProjectDto();
-        //public ICollection<StoryDto> Stories { get; set; } = new List<StoryDto>();
+        public ICollection<StoryDto> Stories { get; set; } = new List<StoryDto>();
     }
 }

@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="UseCases\EpicDetails\Query\" />
     <Folder Include="UseCases\ProjectDetails\Commands\" />
     <Folder Include="UseCases\ProjectDetails\Query\" />
     <Folder Include="UseCases\UserDetails\Command\" />

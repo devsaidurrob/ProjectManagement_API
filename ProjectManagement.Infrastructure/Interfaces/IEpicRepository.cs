@@ -11,5 +11,6 @@ namespace ProjectManagement.Infrastructure.Interfaces
         Task<Epic> AddEpicAsync(Epic epic);
         Task<Epic> UpdateEpicAsync(Epic epic);
         Task<Epic> DeleteEpicAsync(int id);
+        Task<IEnumerable<Epic>> GetEpicsByProjectIdAsync(int projectId);
     }
 }
