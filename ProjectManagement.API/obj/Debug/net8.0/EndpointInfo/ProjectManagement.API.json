@@ -793,6 +793,10 @@
             "type": "integer",
             "format": "int32"
           },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
           "stories": {
             "type": "array",
             "items": {
@@ -1055,6 +1059,10 @@
           "epicId": {
             "type": "integer",
             "format": "int32"
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
           },
           "tasks": {
             "type": "array",

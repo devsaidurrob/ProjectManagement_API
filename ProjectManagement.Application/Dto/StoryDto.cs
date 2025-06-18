@@ -8,6 +8,7 @@ namespace ProjectManagement.Application.Dto
         public string Title { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
         public int EpicId { get; set; }
+        public string Status { get; set; } = string.Empty;
         //public EpicDto Epic { get; set; } = new EpicDto();
         public ICollection<TaskItemDto> Tasks { get; set; } = new List<TaskItemDto>();
     }

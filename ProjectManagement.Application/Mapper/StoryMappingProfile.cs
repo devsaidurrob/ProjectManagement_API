@@ -13,7 +13,8 @@ namespace ProjectManagement.Application.Mapper
     {
         public StoryMappingProfile()
         {
-            CreateMap<Story, StoryDto>();
+            CreateMap<Story, StoryDto>()
+                .ForMember(dest => dest.Status, opt => opt.MapFrom(src => src.Status.ToString()));
             // Add any additional mappings here
         }
     }

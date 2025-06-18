@@ -9,6 +9,7 @@ namespace ProjectManagement.Application.Dto
         public string Title { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
         public int ProjectId { get; set; }
+        public string Status { get; set; } = string.Empty;
         //public ProjectDto Project { get; set; } = new ProjectDto();
         public ICollection<StoryDto> Stories { get; set; } = new List<StoryDto>();
     }
