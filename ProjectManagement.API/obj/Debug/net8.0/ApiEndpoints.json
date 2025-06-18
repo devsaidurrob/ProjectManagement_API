@@ -201,6 +201,37 @@
     ]
   },
   {
+    "ContainingType": "ProjectManagement.API.Controllers.TaskItemController",
+    "Method": "ChangeStatus",
+    "RelativePath": "api/task/{id}/status",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "ProjectManagement.Application.UseCases.TaskDetails.Command.ChangeTaskStatusCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ProjectManagement.Application.Dto.ResponseDto\u00601[[ProjectManagement.Application.Dto.TaskItemDto, ProjectManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "ProjectManagement.API.Controllers.UserController",
     "Method": "CreateUser",
     "RelativePath": "api/User",

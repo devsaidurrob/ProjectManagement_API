@@ -32,7 +32,6 @@ namespace ProjectManagement.Application.UseCases.TaskItemDetails.Command
             existingTaskItem.Title = request.Title;
             existingTaskItem.Description = request.Description;
             existingTaskItem.StoryId = request.StoryId;
-            existingTaskItem.IsCompleted = request.IsCompleted;
             existingTaskItem.AssignedUserId = request.AssignedUserId;
 
             var updatedTaskItem = await _taskItemRepository.UpdateTaskAsync(existingTaskItem);
