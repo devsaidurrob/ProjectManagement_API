@@ -15,7 +15,7 @@ namespace ProjectManagement.Core.Entities
         public int StoryId { get; set; }
         public virtual Story Story { get; set; } = new Story();
         public Enums.TaskStatus Status { get; set; }  // NEW
-        public bool IsCompleted => Status == Enums.TaskStatus.Complete; // Optional derived
+        public bool IsCompleted => Status == Enums.TaskStatus.Done; // Optional derived
         public int AssignedUserId { get; set; } // Assigned user
         public virtual User AssignedUser { get; set; } = new User();
         public virtual ICollection<SprintTask> SprintTasks { get; set; } // Linking with Sprint

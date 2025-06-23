@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using ProjectManagement.Application.Dto;
 using ProjectManagement.Application.UseCases.TaskDetails.Command;
+using ProjectManagement.Application.UseCases.TaskItemDetails.Query;
 
 namespace ProjectManagement.API.Controllers
 {
@@ -17,12 +18,18 @@ namespace ProjectManagement.API.Controllers
         {
             _mediator = mediator;
         }
-
+        [HttpGet]
+        public async Task<ResponseDto<IEnumerable<TaskItemDto>>> GetAllTask()
+        {
+            var result = await _mediator.Send(new GetAllTaskItemsQuery());
+            return result;
+        }
         [HttpPut("{id}/status")]
         public async Task<ResponseDto<TaskItemDto>> ChangeStatus(int id, [FromBody] ChangeTaskStatusCommand command)
         {
             var result = await _mediator.Send(new ChangeTaskStatusCommand(id, command.NewStatus));
             return result;
         }
+        
     }
 }

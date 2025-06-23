@@ -29,10 +29,10 @@ namespace ProjectManagement.Application.EventHandlers
             var tasks = await _taskRepo.GetTasksByStoryIdAsync(notification.StoryId);
             var story = await _storyRepo.GetStoryByIdAsync(notification.StoryId);
 
-            if (tasks.All(t => t.Status == Core.Enums.TaskStatus.Complete))
-                story.Status = Core.Enums.TaskStatus.Complete;
-            else if (tasks.Any(t => t.Status == Core.Enums.TaskStatus.Working))
-                story.Status = Core.Enums.TaskStatus.Working;
+            if (tasks.All(t => t.Status == Core.Enums.TaskStatus.Done))
+                story.Status = Core.Enums.TaskStatus.Done;
+            else if (tasks.Any(t => t.Status == Core.Enums.TaskStatus.InProgress))
+                story.Status = Core.Enums.TaskStatus.InProgress;
             else
                 story.Status = Core.Enums.TaskStatus.ToDo;
 

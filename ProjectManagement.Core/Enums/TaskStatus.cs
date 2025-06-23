@@ -9,8 +9,8 @@ namespace ProjectManagement.Core.Enums
     public enum TaskStatus
     {
         ToDo = 0,
-        Working = 1,
+        InProgress = 1,
         Review = 2,
-        Complete = 3
+        Done = 3
     }
 }

@@ -27,10 +27,10 @@ namespace ProjectManagement.Application.EventHandlers
             var stories = await _storyRepo.GetStoriesByEpicIdAsync(notification.EpicId);
             var epic = await _epicRepo.GetEpicByIdAsync(notification.EpicId);
 
-            if (stories.All(s => s.Status == Core.Enums.TaskStatus.Complete))
-                epic.Status = Core.Enums.TaskStatus.Complete;
-            else if (stories.Any(s => s.Status == Core.Enums.TaskStatus.Working))
-                epic.Status = Core.Enums.TaskStatus.Working;
+            if (stories.All(s => s.Status == Core.Enums.TaskStatus.Done))
+                epic.Status = Core.Enums.TaskStatus.Done;
+            else if (stories.Any(s => s.Status == Core.Enums.TaskStatus.InProgress))
+                epic.Status = Core.Enums.TaskStatus.InProgress;
             else
                 epic.Status = Core.Enums.TaskStatus.ToDo;
 
