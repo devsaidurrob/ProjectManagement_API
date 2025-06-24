@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.UnitTests\\ProjectManagement.UnitTests.csproj": {}
+    "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.UnitTests\\ProjectManagement.UnitTests.csproj": {}
   },
   "projects": {
-    "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.API\\ProjectManagement.API.csproj": {
+    "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.API\\ProjectManagement.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.API\\ProjectManagement.API.csproj",
+        "projectUniqueName": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.API\\ProjectManagement.API.csproj",
         "projectName": "ProjectManagement.API",
-        "projectPath": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.API\\ProjectManagement.API.csproj",
-        "packagesPath": "C:\\Users\\SaidurRob\\.nuget\\packages\\",
-        "outputPath": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.API\\obj\\",
+        "projectPath": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.API\\ProjectManagement.API.csproj",
+        "packagesPath": "C:\\Users\\Bobi\\.nuget\\packages\\",
+        "outputPath": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\SaidurRob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bobi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,11 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\ProjectManagement.Application.csproj": {
-                "projectPath": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\ProjectManagement.Application.csproj"
+              "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\ProjectManagement.Application.csproj": {
+                "projectPath": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\ProjectManagement.Application.csproj"
               },
-              "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj": {
-                "projectPath": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj"
+              "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj": {
+                "projectPath": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj"
               }
             }
           }
@@ -91,20 +91,20 @@
         }
       }
     },
-    "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\ProjectManagement.Application.csproj": {
+    "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\ProjectManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\ProjectManagement.Application.csproj",
+        "projectUniqueName": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\ProjectManagement.Application.csproj",
         "projectName": "ProjectManagement.Application",
-        "projectPath": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\ProjectManagement.Application.csproj",
-        "packagesPath": "C:\\Users\\SaidurRob\\.nuget\\packages\\",
-        "outputPath": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\obj\\",
+        "projectPath": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\ProjectManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\Bobi\\.nuget\\packages\\",
+        "outputPath": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\SaidurRob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bobi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -119,11 +119,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\ProjectManagement.Core.csproj": {
-                "projectPath": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\ProjectManagement.Core.csproj"
+              "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\ProjectManagement.Core.csproj": {
+                "projectPath": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\ProjectManagement.Core.csproj"
               },
-              "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj": {
-                "projectPath": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj"
+              "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj": {
+                "projectPath": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj"
               }
             }
           }
@@ -185,20 +185,20 @@
         }
       }
     },
-    "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\ProjectManagement.Core.csproj": {
+    "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\ProjectManagement.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\ProjectManagement.Core.csproj",
+        "projectUniqueName": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\ProjectManagement.Core.csproj",
         "projectName": "ProjectManagement.Core",
-        "projectPath": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\ProjectManagement.Core.csproj",
-        "packagesPath": "C:\\Users\\SaidurRob\\.nuget\\packages\\",
-        "outputPath": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\obj\\",
+        "projectPath": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\ProjectManagement.Core.csproj",
+        "packagesPath": "C:\\Users\\Bobi\\.nuget\\packages\\",
+        "outputPath": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\SaidurRob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bobi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -250,20 +250,20 @@
         }
       }
     },
-    "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj": {
+    "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj",
+        "projectUniqueName": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj",
         "projectName": "ProjectManagement.Infrastructure",
-        "projectPath": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\SaidurRob\\.nuget\\packages\\",
-        "outputPath": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\obj\\",
+        "projectPath": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Bobi\\.nuget\\packages\\",
+        "outputPath": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\SaidurRob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bobi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -278,8 +278,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\ProjectManagement.Core.csproj": {
-                "projectPath": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\ProjectManagement.Core.csproj"
+              "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\ProjectManagement.Core.csproj": {
+                "projectPath": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\ProjectManagement.Core.csproj"
               }
             }
           }
@@ -341,20 +341,20 @@
         }
       }
     },
-    "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.UnitTests\\ProjectManagement.UnitTests.csproj": {
+    "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.UnitTests\\ProjectManagement.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.UnitTests\\ProjectManagement.UnitTests.csproj",
+        "projectUniqueName": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.UnitTests\\ProjectManagement.UnitTests.csproj",
         "projectName": "ProjectManagement.UnitTests",
-        "projectPath": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.UnitTests\\ProjectManagement.UnitTests.csproj",
-        "packagesPath": "C:\\Users\\SaidurRob\\.nuget\\packages\\",
-        "outputPath": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.UnitTests\\obj\\",
+        "projectPath": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.UnitTests\\ProjectManagement.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\Bobi\\.nuget\\packages\\",
+        "outputPath": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\SaidurRob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bobi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -369,8 +369,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.API\\ProjectManagement.API.csproj": {
-                "projectPath": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.API\\ProjectManagement.API.csproj"
+              "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.API\\ProjectManagement.API.csproj": {
+                "projectPath": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.API\\ProjectManagement.API.csproj"
               }
             }
           }

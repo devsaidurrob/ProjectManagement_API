@@ -1125,6 +1125,26 @@
           "status": {
             "type": "string",
             "nullable": true
+          },
+          "priority": {
+            "type": "string",
+            "nullable": true
+          },
+          "assignedUserId": {
+            "type": "string",
+            "nullable": true
+          },
+          "assignedUserName": {
+            "type": "string",
+            "nullable": true
+          },
+          "assignedUserFullName": {
+            "type": "string",
+            "nullable": true
+          },
+          "assignedUserAvatar": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

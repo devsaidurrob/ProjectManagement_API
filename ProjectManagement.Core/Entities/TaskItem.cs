@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjectManagement.Core.Enums;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -16,6 +17,7 @@ namespace ProjectManagement.Core.Entities
         public virtual Story Story { get; set; } = new Story();
         public Enums.TaskStatus Status { get; set; }  // NEW
         public bool IsCompleted => Status == Enums.TaskStatus.Done; // Optional derived
+        public Priority Priority { get; set; }
         public int AssignedUserId { get; set; } // Assigned user
         public virtual User AssignedUser { get; set; } = new User();
         public virtual ICollection<SprintTask> SprintTasks { get; set; } // Linking with Sprint

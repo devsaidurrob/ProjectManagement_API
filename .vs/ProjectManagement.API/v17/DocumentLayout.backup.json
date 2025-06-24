@@ -1,50 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\",
+  "WorkspaceRootPath": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B666AB7B-0003-4CDF-B04F-EFA7041C139D}|ProjectManagement.Core\\ProjectManagement.Core.csproj|d:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.core\\enums\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B666AB7B-0003-4CDF-B04F-EFA7041C139D}|ProjectManagement.Core\\ProjectManagement.Core.csproj|solutionrelative:projectmanagement.core\\enums\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|e:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.application\\mapper\\taskitemmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|solutionrelative:projectmanagement.application\\mapper\\taskitemmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|d:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.application\\usecases\\taskdetails\\command\\changetaskstatuscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|solutionrelative:projectmanagement.application\\usecases\\taskdetails\\command\\changetaskstatuscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|e:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.application\\dto\\taskitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|solutionrelative:projectmanagement.application\\dto\\taskitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2ACE15C8-CC32-44E4-B140-38D404BC0E1F}|ProjectManagement.API\\ProjectManagement.API.csproj|d:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.api\\controllers\\taskitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2ACE15C8-CC32-44E4-B140-38D404BC0E1F}|ProjectManagement.API\\ProjectManagement.API.csproj|solutionrelative:projectmanagement.api\\controllers\\taskitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|d:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.application\\eventhandlers\\taskstatuschangedeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|solutionrelative:projectmanagement.application\\eventhandlers\\taskstatuschangedeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|d:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.application\\eventhandlers\\storystatuschangedeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|solutionrelative:projectmanagement.application\\eventhandlers\\storystatuschangedeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B666AB7B-0003-4CDF-B04F-EFA7041C139D}|ProjectManagement.Core\\ProjectManagement.Core.csproj|d:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.core\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B666AB7B-0003-4CDF-B04F-EFA7041C139D}|ProjectManagement.Core\\ProjectManagement.Core.csproj|solutionrelative:projectmanagement.core\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2ACE15C8-CC32-44E4-B140-38D404BC0E1F}|ProjectManagement.API\\ProjectManagement.API.csproj|d:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2ACE15C8-CC32-44E4-B140-38D404BC0E1F}|ProjectManagement.API\\ProjectManagement.API.csproj|solutionrelative:projectmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|d:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.application\\mapper\\storymappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|solutionrelative:projectmanagement.application\\mapper\\storymappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|d:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.application\\mapper\\epicmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|e:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.application\\mapper\\epicmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|solutionrelative:projectmanagement.application\\mapper\\epicmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|d:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.application\\usecases\\epicdetails\\query\\getepicsbyprojectidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|solutionrelative:projectmanagement.application\\usecases\\epicdetails\\query\\getepicsbyprojectidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|e:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.application\\usecases\\taskdetails\\query\\getalltaskitemsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|solutionrelative:projectmanagement.application\\usecases\\taskdetails\\query\\getalltaskitemsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|d:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.application\\dto\\epicdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|solutionrelative:projectmanagement.application\\dto\\epicdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2ACE15C8-CC32-44E4-B140-38D404BC0E1F}|ProjectManagement.API\\ProjectManagement.API.csproj|e:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.api\\controllers\\taskitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ACE15C8-CC32-44E4-B140-38D404BC0E1F}|ProjectManagement.API\\ProjectManagement.API.csproj|solutionrelative:projectmanagement.api\\controllers\\taskitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D0AA17-B133-4A1B-AB94-713D220A7E69}|ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj|e:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.infrastructure\\repositories\\taskitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4D0AA17-B133-4A1B-AB94-713D220A7E69}|ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj|solutionrelative:projectmanagement.infrastructure\\repositories\\taskitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,142 +38,87 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TaskStatusChangedEventHandler.cs",
-              "DocumentMoniker": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\EventHandlers\\TaskStatusChangedEventHandler.cs",
-              "RelativeDocumentMoniker": "ProjectManagement.Application\\EventHandlers\\TaskStatusChangedEventHandler.cs",
-              "ToolTip": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\EventHandlers\\TaskStatusChangedEventHandler.cs",
-              "RelativeToolTip": "ProjectManagement.Application\\EventHandlers\\TaskStatusChangedEventHandler.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAcwCIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T11:43:13.031Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "StoryStatusChangedEventHandler.cs",
-              "DocumentMoniker": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\EventHandlers\\StoryStatusChangedEventHandler.cs",
-              "RelativeDocumentMoniker": "ProjectManagement.Application\\EventHandlers\\StoryStatusChangedEventHandler.cs",
-              "ToolTip": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\EventHandlers\\StoryStatusChangedEventHandler.cs",
-              "RelativeToolTip": "ProjectManagement.Application\\EventHandlers\\StoryStatusChangedEventHandler.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA4wCAAAAA+AAAAAAAAAA==",
+              "Title": "TaskItemController.cs",
+              "DocumentMoniker": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.API\\Controllers\\TaskItemController.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.API\\Controllers\\TaskItemController.cs",
+              "ToolTip": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.API\\Controllers\\TaskItemController.cs",
+              "RelativeToolTip": "ProjectManagement.API\\Controllers\\TaskItemController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T11:42:45.394Z",
+              "WhenOpened": "2025-06-19T07:14:10.571Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "TaskItem.cs",
-              "DocumentMoniker": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\Entities\\TaskItem.cs",
-              "RelativeDocumentMoniker": "ProjectManagement.Core\\Entities\\TaskItem.cs",
-              "ToolTip": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\Entities\\TaskItem.cs",
-              "RelativeToolTip": "ProjectManagement.Core\\Entities\\TaskItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABCAAAAAAAAAA==",
+              "Title": "TaskItemRepository.cs",
+              "DocumentMoniker": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\Repositories\\TaskItemRepository.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.Infrastructure\\Repositories\\TaskItemRepository.cs",
+              "ToolTip": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\Repositories\\TaskItemRepository.cs",
+              "RelativeToolTip": "ProjectManagement.Infrastructure\\Repositories\\TaskItemRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T11:42:33.383Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TaskStatus.cs",
-              "DocumentMoniker": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\Enums\\TaskStatus.cs",
-              "RelativeDocumentMoniker": "ProjectManagement.Core\\Enums\\TaskStatus.cs",
-              "ToolTip": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\Enums\\TaskStatus.cs",
-              "RelativeToolTip": "ProjectManagement.Core\\Enums\\TaskStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T11:33:40.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ChangeTaskStatusCommandHandler.cs",
-              "DocumentMoniker": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\UseCases\\TaskDetails\\Command\\ChangeTaskStatusCommandHandler.cs",
-              "RelativeDocumentMoniker": "ProjectManagement.Application\\UseCases\\TaskDetails\\Command\\ChangeTaskStatusCommandHandler.cs",
-              "ToolTip": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\UseCases\\TaskDetails\\Command\\ChangeTaskStatusCommandHandler.cs",
-              "RelativeToolTip": "ProjectManagement.Application\\UseCases\\TaskDetails\\Command\\ChangeTaskStatusCommandHandler.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T11:28:47.437Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.API\\Program.cs",
-              "RelativeDocumentMoniker": "ProjectManagement.API\\Program.cs",
-              "ToolTip": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.API\\Program.cs",
-              "RelativeToolTip": "ProjectManagement.API\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T09:58:11.704Z",
+              "WhenOpened": "2025-06-23T17:52:26.375Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TaskItemController.cs",
-              "DocumentMoniker": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.API\\Controllers\\TaskItemController.cs",
-              "RelativeDocumentMoniker": "ProjectManagement.API\\Controllers\\TaskItemController.cs",
-              "ToolTip": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.API\\Controllers\\TaskItemController.cs",
-              "RelativeToolTip": "ProjectManagement.API\\Controllers\\TaskItemController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
+              "Title": "EpicMappingProfile.cs",
+              "DocumentMoniker": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\Mapper\\EpicMappingProfile.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.Application\\Mapper\\EpicMappingProfile.cs",
+              "ToolTip": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\Mapper\\EpicMappingProfile.cs",
+              "RelativeToolTip": "ProjectManagement.Application\\Mapper\\EpicMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T07:14:10.571Z",
+              "WhenOpened": "2025-06-23T17:57:27.562Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "StoryMappingProfile.cs",
-              "DocumentMoniker": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\Mapper\\StoryMappingProfile.cs",
-              "RelativeDocumentMoniker": "ProjectManagement.Application\\Mapper\\StoryMappingProfile.cs",
-              "ToolTip": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\Mapper\\StoryMappingProfile.cs",
-              "RelativeToolTip": "ProjectManagement.Application\\Mapper\\StoryMappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "TaskItemMappingProfile.cs",
+              "DocumentMoniker": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\Mapper\\TaskItemMappingProfile.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.Application\\Mapper\\TaskItemMappingProfile.cs",
+              "ToolTip": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\Mapper\\TaskItemMappingProfile.cs",
+              "RelativeToolTip": "ProjectManagement.Application\\Mapper\\TaskItemMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T13:25:46.378Z"
+              "WhenOpened": "2025-06-23T17:55:55.354Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EpicMappingProfile.cs",
-              "DocumentMoniker": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\Mapper\\EpicMappingProfile.cs",
-              "RelativeDocumentMoniker": "ProjectManagement.Application\\Mapper\\EpicMappingProfile.cs",
-              "ToolTip": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\Mapper\\EpicMappingProfile.cs",
-              "RelativeToolTip": "ProjectManagement.Application\\Mapper\\EpicMappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABiAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "TaskItemDto.cs",
+              "DocumentMoniker": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\Dto\\TaskItemDto.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.Application\\Dto\\TaskItemDto.cs",
+              "ToolTip": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\Dto\\TaskItemDto.cs",
+              "RelativeToolTip": "ProjectManagement.Application\\Dto\\TaskItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T13:20:54.474Z"
+              "WhenOpened": "2025-06-23T17:53:53.081Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GetEpicsByProjectIdQueryHandler.cs",
-              "DocumentMoniker": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\UseCases\\EpicDetails\\Query\\GetEpicsByProjectIdQueryHandler.cs",
-              "RelativeDocumentMoniker": "ProjectManagement.Application\\UseCases\\EpicDetails\\Query\\GetEpicsByProjectIdQueryHandler.cs",
-              "ToolTip": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\UseCases\\EpicDetails\\Query\\GetEpicsByProjectIdQueryHandler.cs",
-              "RelativeToolTip": "ProjectManagement.Application\\UseCases\\EpicDetails\\Query\\GetEpicsByProjectIdQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "GetAllTaskItemsQueryHandler.cs",
+              "DocumentMoniker": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\UseCases\\TaskDetails\\Query\\GetAllTaskItemsQueryHandler.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.Application\\UseCases\\TaskDetails\\Query\\GetAllTaskItemsQueryHandler.cs",
+              "ToolTip": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\UseCases\\TaskDetails\\Query\\GetAllTaskItemsQueryHandler.cs",
+              "RelativeToolTip": "ProjectManagement.Application\\UseCases\\TaskDetails\\Query\\GetAllTaskItemsQueryHandler.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBgAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T13:19:06.245Z"
+              "WhenOpened": "2025-06-23T17:53:49.242Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EpicDto.cs",
-              "DocumentMoniker": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\Dto\\EpicDto.cs",
-              "RelativeDocumentMoniker": "ProjectManagement.Application\\Dto\\EpicDto.cs",
-              "ToolTip": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\Dto\\EpicDto.cs",
-              "RelativeToolTip": "ProjectManagement.Application\\Dto\\EpicDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T13:18:42.505Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

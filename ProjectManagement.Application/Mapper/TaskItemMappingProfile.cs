@@ -13,7 +13,10 @@ namespace ProjectManagement.Application.Mapper
     {
         public TaskItemMappingProfile()
         {
-            CreateMap<TaskItem, TaskItemDto>().ReverseMap();
+            CreateMap<TaskItem, TaskItemDto>()
+                .ForMember(dest => dest.AssignedUserFullName, opt => opt.MapFrom(src => src.AssignedUser.Name));
+
+            CreateMap<TaskItemDto, TaskItem>();
         }
     }
 }
