@@ -24,6 +24,12 @@ namespace ProjectManagement.API.Controllers
             var result = await _mediator.Send(new GetAllTaskItemsQuery());
             return result;
         }
+        [HttpGet("{id}")]
+        public async Task<ResponseDto<TaskItemDto>> GetTaskById(int id)
+        {
+            var result = await _mediator.Send(new GetTaskItemByIdQuery(id));
+            return result;
+        }
         [HttpPut("{id}/status")]
         public async Task<ResponseDto<TaskItemDto>> ChangeStatus(int id, [FromBody] ChangeTaskStatusCommand command)
         {

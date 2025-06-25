@@ -30,11 +30,7 @@ namespace ProjectManagement.Infrastructure.Repositories
         public async Task<IEnumerable<TaskItem>> GetAllTasksAsync()
         {
             return await _context.Tasks
-                .Include(t => t.Story)
                 .Include(t => t.AssignedUser)
-                .Include(t => t.Comments)
-                .Include(t => t.Attachments)
-                .Include(t => t.ActivityLogs)
                 .ToListAsync();
         }
 

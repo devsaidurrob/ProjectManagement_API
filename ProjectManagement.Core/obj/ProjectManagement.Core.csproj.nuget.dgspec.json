@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\ProjectManagement.Core.csproj": {}
+    "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\ProjectManagement.Core.csproj": {}
   },
   "projects": {
-    "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\ProjectManagement.Core.csproj": {
+    "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\ProjectManagement.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\ProjectManagement.Core.csproj",
+        "projectUniqueName": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\ProjectManagement.Core.csproj",
         "projectName": "ProjectManagement.Core",
-        "projectPath": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\ProjectManagement.Core.csproj",
-        "packagesPath": "C:\\Users\\Bobi\\.nuget\\packages\\",
-        "outputPath": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\obj\\",
+        "projectPath": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\ProjectManagement.Core.csproj",
+        "packagesPath": "C:\\Users\\SaidurRob\\.nuget\\packages\\",
+        "outputPath": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Bobi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SaidurRob\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

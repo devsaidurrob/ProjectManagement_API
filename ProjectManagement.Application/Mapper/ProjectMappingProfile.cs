@@ -24,7 +24,8 @@ namespace ProjectManagement.Application.Mapper
             CreateMap<DeleteProjectCommand, Project>();
 
             // Project Query to DTO
-            CreateMap<Project, ProjectDto>();
+            CreateMap<Project, ProjectDto>()
+                .ForMember(dest => dest.TotalMembers, opt => opt.MapFrom(src => (src.ProjectMembers == null)? 0 : src.ProjectMembers.Count()));
 
         }
     }

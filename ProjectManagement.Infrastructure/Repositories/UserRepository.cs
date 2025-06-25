@@ -17,6 +17,11 @@ namespace ProjectManagement.Infrastructure.Repositories
         {
             _context = context;
         }
+        public async Task<IEnumerable<User>> GetAllUsersAsync()
+        {
+            return await _context.Users
+                .ToListAsync();
+        }
         public async Task<User> AddUserAsync(User user)
         {
             _context.Users.Add(user);

@@ -1,30 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\",
+  "WorkspaceRootPath": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|e:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.application\\mapper\\taskitemmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|solutionrelative:projectmanagement.application\\mapper\\taskitemmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|d:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.application\\dto\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|solutionrelative:projectmanagement.application\\dto\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|e:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.application\\dto\\taskitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|solutionrelative:projectmanagement.application\\dto\\taskitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|d:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.application\\mapper\\projectmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|solutionrelative:projectmanagement.application\\mapper\\projectmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|e:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.application\\mapper\\epicmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|solutionrelative:projectmanagement.application\\mapper\\epicmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|d:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.application\\usecases\\projectdetails\\query\\getallprojectsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|solutionrelative:projectmanagement.application\\usecases\\projectdetails\\query\\getallprojectsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|e:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.application\\usecases\\taskdetails\\query\\getalltaskitemsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|solutionrelative:projectmanagement.application\\usecases\\taskdetails\\query\\getalltaskitemsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2ACE15C8-CC32-44E4-B140-38D404BC0E1F}|ProjectManagement.API\\ProjectManagement.API.csproj|e:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.api\\controllers\\taskitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2ACE15C8-CC32-44E4-B140-38D404BC0E1F}|ProjectManagement.API\\ProjectManagement.API.csproj|solutionrelative:projectmanagement.api\\controllers\\taskitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4D0AA17-B133-4A1B-AB94-713D220A7E69}|ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj|e:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.infrastructure\\repositories\\taskitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4D0AA17-B133-4A1B-AB94-713D220A7E69}|ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj|solutionrelative:projectmanagement.infrastructure\\repositories\\taskitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E4D0AA17-B133-4A1B-AB94-713D220A7E69}|ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj|d:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.infrastructure\\repositories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4D0AA17-B133-4A1B-AB94-713D220A7E69}|ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj|solutionrelative:projectmanagement.infrastructure\\repositories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,91 +26,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TaskItemController.cs",
-              "DocumentMoniker": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.API\\Controllers\\TaskItemController.cs",
-              "RelativeDocumentMoniker": "ProjectManagement.API\\Controllers\\TaskItemController.cs",
-              "ToolTip": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.API\\Controllers\\TaskItemController.cs",
-              "RelativeToolTip": "ProjectManagement.API\\Controllers\\TaskItemController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ProjectMappingProfile.cs",
+              "DocumentMoniker": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\Mapper\\ProjectMappingProfile.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.Application\\Mapper\\ProjectMappingProfile.cs",
+              "ToolTip": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\Mapper\\ProjectMappingProfile.cs",
+              "RelativeToolTip": "ProjectManagement.Application\\Mapper\\ProjectMappingProfile.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T07:14:10.571Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TaskItemRepository.cs",
-              "DocumentMoniker": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\Repositories\\TaskItemRepository.cs",
-              "RelativeDocumentMoniker": "ProjectManagement.Infrastructure\\Repositories\\TaskItemRepository.cs",
-              "ToolTip": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\Repositories\\TaskItemRepository.cs",
-              "RelativeToolTip": "ProjectManagement.Infrastructure\\Repositories\\TaskItemRepository.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T17:52:26.375Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EpicMappingProfile.cs",
-              "DocumentMoniker": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\Mapper\\EpicMappingProfile.cs",
-              "RelativeDocumentMoniker": "ProjectManagement.Application\\Mapper\\EpicMappingProfile.cs",
-              "ToolTip": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\Mapper\\EpicMappingProfile.cs",
-              "RelativeToolTip": "ProjectManagement.Application\\Mapper\\EpicMappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T17:57:27.562Z",
+              "WhenOpened": "2025-06-25T10:55:44.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TaskItemMappingProfile.cs",
-              "DocumentMoniker": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\Mapper\\TaskItemMappingProfile.cs",
-              "RelativeDocumentMoniker": "ProjectManagement.Application\\Mapper\\TaskItemMappingProfile.cs",
-              "ToolTip": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\Mapper\\TaskItemMappingProfile.cs",
-              "RelativeToolTip": "ProjectManagement.Application\\Mapper\\TaskItemMappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABwAAAAAAAAAA==",
+              "Title": "ProjectDto.cs",
+              "DocumentMoniker": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\Dto\\ProjectDto.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.Application\\Dto\\ProjectDto.cs",
+              "ToolTip": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\Dto\\ProjectDto.cs",
+              "RelativeToolTip": "ProjectManagement.Application\\Dto\\ProjectDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T17:55:55.354Z",
+              "WhenOpened": "2025-06-25T10:54:39.159Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TaskItemDto.cs",
-              "DocumentMoniker": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\Dto\\TaskItemDto.cs",
-              "RelativeDocumentMoniker": "ProjectManagement.Application\\Dto\\TaskItemDto.cs",
-              "ToolTip": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\Dto\\TaskItemDto.cs",
-              "RelativeToolTip": "ProjectManagement.Application\\Dto\\TaskItemDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "GetAllProjectsQueryHandler.cs",
+              "DocumentMoniker": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\UseCases\\ProjectDetails\\Query\\GetAllProjectsQueryHandler.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.Application\\UseCases\\ProjectDetails\\Query\\GetAllProjectsQueryHandler.cs",
+              "ToolTip": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\UseCases\\ProjectDetails\\Query\\GetAllProjectsQueryHandler.cs",
+              "RelativeToolTip": "ProjectManagement.Application\\UseCases\\ProjectDetails\\Query\\GetAllProjectsQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T17:53:53.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetAllTaskItemsQueryHandler.cs",
-              "DocumentMoniker": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\UseCases\\TaskDetails\\Query\\GetAllTaskItemsQueryHandler.cs",
-              "RelativeDocumentMoniker": "ProjectManagement.Application\\UseCases\\TaskDetails\\Query\\GetAllTaskItemsQueryHandler.cs",
-              "ToolTip": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\UseCases\\TaskDetails\\Query\\GetAllTaskItemsQueryHandler.cs",
-              "RelativeToolTip": "ProjectManagement.Application\\UseCases\\TaskDetails\\Query\\GetAllTaskItemsQueryHandler.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBgAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T17:53:49.242Z",
+              "WhenOpened": "2025-06-25T10:54:36.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProjectRepository.cs",
+              "DocumentMoniker": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\Repositories\\ProjectRepository.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.Infrastructure\\Repositories\\ProjectRepository.cs",
+              "ToolTip": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\Repositories\\ProjectRepository.cs",
+              "RelativeToolTip": "ProjectManagement.Infrastructure\\Repositories\\ProjectRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T10:54:01.602Z",
+              "EditorCaption": ""
             }
           ]
         }

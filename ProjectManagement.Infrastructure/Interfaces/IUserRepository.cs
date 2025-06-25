@@ -9,6 +9,7 @@ namespace ProjectManagement.Infrastructure.Interfaces
 {
     public interface IUserRepository
     {
+        Task<IEnumerable<User>> GetAllUsersAsync();
         Task<User> GetUserByIdAsync(int id);
         Task<User> GetUserByEmailAsync(string email);
         Task<User> GetUserByUserNameAsync(string email);

@@ -17,7 +17,13 @@ namespace ProjectManagement.API.Controllers
         {
             _mediator = mediator;
         }
-
+        [HttpGet]
+        public async Task<ResponseDto<IEnumerable<UserDto>>> GetAllUsers()
+        {
+            var query = new GetAllUsersQuery();
+            var result = await _mediator.Send(query);
+            return result;
+        }
         [HttpGet("{id}")]
         public async Task<ResponseDto<UserDto>> GetUserById(int id)
         {

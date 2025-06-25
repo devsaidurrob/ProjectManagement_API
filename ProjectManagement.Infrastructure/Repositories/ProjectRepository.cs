@@ -31,8 +31,6 @@ namespace ProjectManagement.Infrastructure.Repositories
         public async Task<IEnumerable<Project>> GetAllProjectsAsync()
         {
             return await _context.Projects
-                .Include(p => p.Epics)
-                .Include(p => p.Sprints)
                 .Include(p => p.ProjectMembers)
                 .ToListAsync();
         }

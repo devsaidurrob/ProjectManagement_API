@@ -30,7 +30,7 @@ namespace ProjectManagement.Application.UseCases.ProjectDetails.Commands
                 Description = command.Description,
                 StartDate = command.StartDate,
                 EndDate = command.EndDate,
-                OwnerId = command.OwnerId
+                OwnerId = 1
             };
 
             var createdProject = await _projectRepository.AddProjectAsync(project);
