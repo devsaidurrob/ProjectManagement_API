@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ProjectManagement.Application.UseCases.ProjectMemberDetails.Command
 {
-    public class CreateProjectMemberCommandHandler : IRequestHandler<CreateProjectMemberCommand, ResponseDto<ProjectMemberDto>>
+    public class CreateProjectMemberCommandHandler : IRequestHandler<CreateProjectMemberCommand, ResponseDto<bool>>
     {
         private readonly IProjectMemberRepository _projectMemberRepository;
         private readonly IMapper _mapper;
@@ -21,13 +21,24 @@ namespace ProjectManagement.Application.UseCases.ProjectMemberDetails.Command
             _mapper = mapper;
         }
 
-        public async Task<ResponseDto<ProjectMemberDto>> Handle(CreateProjectMemberCommand request, CancellationToken cancellationToken)
+        public async Task<ResponseDto<bool>> Handle(CreateProjectMemberCommand request, CancellationToken cancellationToken)
         {
-            var projectMember = _mapper.Map<ProjectMember>(request);
-            var addedProjectMember = await _projectMemberRepository.AddProjectMemberAsync(projectMember);
+            var projectMembers = request.ProjectMembers.Select(x => new ProjectMember()
+            {
+                UserId = x.UserId,
+                Role = x.Role,
+                ProjectId = request.ProjectId
+            }).ToList();
+
+            var existingProjectMemebers = await _projectMemberRepository.GetProjectMembersByProjectIdAsync(request.ProjectId);
+
+            _projectMemberRepository.RemoveProjectMembers(existingProjectMemebers);
             await _unitOfWork.SaveChangesAsync();
-            var projectMemberDto = _mapper.Map<ProjectMemberDto>(addedProjectMember);
-            return ResponseDto<ProjectMemberDto>.SuccessResponse(projectMemberDto);
+
+            var addedProjectMember = await _projectMemberRepository.AddProjectMembersAsync(projectMembers);
+            await _unitOfWork.SaveChangesAsync();
+            var projectMemberDto = _mapper.Map<IEnumerable<ProjectMemberDto>>(addedProjectMember);
+            return ResponseDto<bool>.SuccessResponse(true);
         }
     }
 }

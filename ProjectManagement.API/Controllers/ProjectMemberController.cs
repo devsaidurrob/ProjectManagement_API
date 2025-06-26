@@ -33,6 +33,20 @@ namespace ProjectManagement.API.Controllers
             var result = await _mediator.Send(new DeleteProjectMemberCommand(id));
             return result;
         }
+        [HttpPost]
+        public async Task<ResponseDto<IEnumerable<ProjectMemberDto>>> AddProjectMember([FromBody]CreateProjectMemberCommand command)
+        {
+            var result = await _mediator.Send(command);
+            if (result.Success)
+            {
+                var projectMembers = await _mediator.Send(new GetProjectMembersByProjectIdQuery(command.ProjectId));
+                return projectMembers;
+            }
+            else
+            {
+                return ResponseDto<IEnumerable<ProjectMemberDto>>.ErrorResponse(result.Message, result.StatusCode);
+            }
+        }
 
         // PUT: api/ProjectMember/5
         //[HttpPut("{id}")]
