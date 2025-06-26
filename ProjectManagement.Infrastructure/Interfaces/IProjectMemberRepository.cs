@@ -12,5 +12,6 @@ namespace ProjectManagement.Infrastructure.Interfaces
         Task<ProjectMember> AddProjectMemberAsync(ProjectMember projectMember);
         Task<ProjectMember?> UpdateProjectMemberAsync(ProjectMember projectMember);
         Task<ProjectMember?> DeleteProjectMemberAsync(int id);
+        Task<IEnumerable<ProjectMember>> AddProjectMembersAsync(IEnumerable<ProjectMember> projectMembers);
     }
 }

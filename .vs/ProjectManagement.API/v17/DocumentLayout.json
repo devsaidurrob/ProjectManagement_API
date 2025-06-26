@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\",
+  "WorkspaceRootPath": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|d:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.application\\dto\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|solutionrelative:projectmanagement.application\\dto\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|e:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.application\\usecases\\projectmemberdetails\\command\\deleteprojectmembercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|solutionrelative:projectmanagement.application\\usecases\\projectmemberdetails\\command\\deleteprojectmembercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|d:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.application\\mapper\\projectmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|solutionrelative:projectmanagement.application\\mapper\\projectmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|e:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.application\\usecases\\projectmemberdetails\\command\\deleteprojectmembercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|solutionrelative:projectmanagement.application\\usecases\\projectmemberdetails\\command\\deleteprojectmembercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|d:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.application\\usecases\\projectdetails\\query\\getallprojectsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|solutionrelative:projectmanagement.application\\usecases\\projectdetails\\query\\getallprojectsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E4D0AA17-B133-4A1B-AB94-713D220A7E69}|ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj|e:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.infrastructure\\repositories\\projectmemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4D0AA17-B133-4A1B-AB94-713D220A7E69}|ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj|solutionrelative:projectmanagement.infrastructure\\repositories\\projectmemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4D0AA17-B133-4A1B-AB94-713D220A7E69}|ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj|d:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.infrastructure\\repositories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4D0AA17-B133-4A1B-AB94-713D220A7E69}|ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj|solutionrelative:projectmanagement.infrastructure\\repositories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|e:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.application\\mapper\\projectmembermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|solutionrelative:projectmanagement.application\\mapper\\projectmembermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|e:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.application\\dto\\projectmemberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|solutionrelative:projectmanagement.application\\dto\\projectmemberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|e:\\others\\projectmanagement\\projectmanagement_api\\projectmanagement.application\\usecases\\projectmemberdetails\\query\\getprojectmembersbyprojectidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5705F63-1823-4D62-9B40-30431DF47A64}|ProjectManagement.Application\\ProjectManagement.Application.csproj|solutionrelative:projectmanagement.application\\usecases\\projectmemberdetails\\query\\getprojectmembersbyprojectidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,45 +34,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProjectMappingProfile.cs",
-              "DocumentMoniker": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\Mapper\\ProjectMappingProfile.cs",
-              "RelativeDocumentMoniker": "ProjectManagement.Application\\Mapper\\ProjectMappingProfile.cs",
-              "ToolTip": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\Mapper\\ProjectMappingProfile.cs",
-              "RelativeToolTip": "ProjectManagement.Application\\Mapper\\ProjectMappingProfile.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAApAAAAAAAAAA==",
+              "Title": "DeleteProjectMemberCommand.cs",
+              "DocumentMoniker": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\UseCases\\ProjectMemberDetails\\Command\\DeleteProjectMemberCommand.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.Application\\UseCases\\ProjectMemberDetails\\Command\\DeleteProjectMemberCommand.cs",
+              "ToolTip": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\UseCases\\ProjectMemberDetails\\Command\\DeleteProjectMemberCommand.cs",
+              "RelativeToolTip": "ProjectManagement.Application\\UseCases\\ProjectMemberDetails\\Command\\DeleteProjectMemberCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T10:55:44.196Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProjectDto.cs",
-              "DocumentMoniker": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\Dto\\ProjectDto.cs",
-              "RelativeDocumentMoniker": "ProjectManagement.Application\\Dto\\ProjectDto.cs",
-              "ToolTip": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\Dto\\ProjectDto.cs",
-              "RelativeToolTip": "ProjectManagement.Application\\Dto\\ProjectDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T10:54:39.159Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetAllProjectsQueryHandler.cs",
-              "DocumentMoniker": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\UseCases\\ProjectDetails\\Query\\GetAllProjectsQueryHandler.cs",
-              "RelativeDocumentMoniker": "ProjectManagement.Application\\UseCases\\ProjectDetails\\Query\\GetAllProjectsQueryHandler.cs",
-              "ToolTip": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\UseCases\\ProjectDetails\\Query\\GetAllProjectsQueryHandler.cs",
-              "RelativeToolTip": "ProjectManagement.Application\\UseCases\\ProjectDetails\\Query\\GetAllProjectsQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T10:54:36.937Z",
+              "WhenOpened": "2025-06-25T20:49:27.518Z",
               "EditorCaption": ""
             },
             {
@@ -73,15 +55,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProjectRepository.cs",
-              "DocumentMoniker": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\Repositories\\ProjectRepository.cs",
-              "RelativeDocumentMoniker": "ProjectManagement.Infrastructure\\Repositories\\ProjectRepository.cs",
-              "ToolTip": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\Repositories\\ProjectRepository.cs",
-              "RelativeToolTip": "ProjectManagement.Infrastructure\\Repositories\\ProjectRepository.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBwAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "DeleteProjectMemberCommandHandler.cs",
+              "DocumentMoniker": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\UseCases\\ProjectMemberDetails\\Command\\DeleteProjectMemberCommandHandler.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.Application\\UseCases\\ProjectMemberDetails\\Command\\DeleteProjectMemberCommandHandler.cs",
+              "ToolTip": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\UseCases\\ProjectMemberDetails\\Command\\DeleteProjectMemberCommandHandler.cs",
+              "RelativeToolTip": "ProjectManagement.Application\\UseCases\\ProjectMemberDetails\\Command\\DeleteProjectMemberCommandHandler.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAASwBkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T10:54:01.602Z",
+              "WhenOpened": "2025-06-25T20:41:10.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProjectMemberMappingProfile.cs",
+              "DocumentMoniker": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\Mapper\\ProjectMemberMappingProfile.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.Application\\Mapper\\ProjectMemberMappingProfile.cs",
+              "ToolTip": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\Mapper\\ProjectMemberMappingProfile.cs",
+              "RelativeToolTip": "ProjectManagement.Application\\Mapper\\ProjectMemberMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T18:49:17.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProjectMemberDto.cs",
+              "DocumentMoniker": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\Dto\\ProjectMemberDto.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.Application\\Dto\\ProjectMemberDto.cs",
+              "ToolTip": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\Dto\\ProjectMemberDto.cs",
+              "RelativeToolTip": "ProjectManagement.Application\\Dto\\ProjectMemberDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T18:48:20.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetProjectMembersByProjectIdQueryHandler.cs",
+              "DocumentMoniker": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\UseCases\\ProjectMemberDetails\\Query\\GetProjectMembersByProjectIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.Application\\UseCases\\ProjectMemberDetails\\Query\\GetProjectMembersByProjectIdQueryHandler.cs",
+              "ToolTip": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Application\\UseCases\\ProjectMemberDetails\\Query\\GetProjectMembersByProjectIdQueryHandler.cs",
+              "RelativeToolTip": "ProjectManagement.Application\\UseCases\\ProjectMemberDetails\\Query\\GetProjectMembersByProjectIdQueryHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T18:47:52.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProjectMemberRepository.cs",
+              "DocumentMoniker": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\Repositories\\ProjectMemberRepository.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.Infrastructure\\Repositories\\ProjectMemberRepository.cs",
+              "ToolTip": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\Repositories\\ProjectMemberRepository.cs",
+              "RelativeToolTip": "ProjectManagement.Infrastructure\\Repositories\\ProjectMemberRepository.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwEYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T18:47:18.998Z",
               "EditorCaption": ""
             }
           ]

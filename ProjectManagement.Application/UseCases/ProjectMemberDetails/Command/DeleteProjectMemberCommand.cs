@@ -3,7 +3,7 @@ using ProjectManagement.Application.Dto;
 
 namespace ProjectManagement.Application.UseCases.ProjectMemberDetails.Command
 {
-    public class DeleteProjectMemberCommand : IRequest<ResponseDto<bool>>
+    public class DeleteProjectMemberCommand : IRequest<ResponseDto<ProjectMemberDto>>
     {
         public int Id { get; set; }
 

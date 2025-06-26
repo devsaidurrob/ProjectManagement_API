@@ -10,5 +10,6 @@ namespace ProjectManagement.Application.UseCases.ProjectDetails.Commands
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public int OwnerId { get; set; }
+        public List<int> projectMembers { get; set; }
     }
 }

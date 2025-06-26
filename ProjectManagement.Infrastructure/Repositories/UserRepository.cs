@@ -75,5 +75,11 @@ namespace ProjectManagement.Infrastructure.Repositories
 
             return existingUser;
         }
+        public async Task<IEnumerable<User>> GetUsersByIdsAsync(IEnumerable<int> userIds)
+        {
+            return await _context.Users
+                .Where(u => userIds.Contains(u.Id))
+                .ToListAsync();
+        }
     }
 }

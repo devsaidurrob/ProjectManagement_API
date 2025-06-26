@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore.Storage;
 using ProjectManagement.Core;
 
 namespace ProjectManagement.Infrastructure.Interfaces
@@ -10,5 +11,6 @@ namespace ProjectManagement.Infrastructure.Interfaces
     public interface IUnitOfWork : IDisposable
     {
         Task<int> SaveChangesAsync();
+        Task<IDbContextTransaction> BeginTransactionAsync();
     }
 }

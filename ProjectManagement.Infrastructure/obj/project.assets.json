@@ -4023,23 +4023,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SaidurRob\\.nuget\\packages\\": {},
+    "C:\\Users\\Bobi\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj",
+      "projectUniqueName": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj",
       "projectName": "ProjectManagement.Infrastructure",
-      "projectPath": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\SaidurRob\\.nuget\\packages\\",
-      "outputPath": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\obj\\",
+      "projectPath": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\ProjectManagement.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\Bobi\\.nuget\\packages\\",
+      "outputPath": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\SaidurRob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bobi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4054,8 +4054,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\ProjectManagement.Core.csproj": {
-              "projectPath": "D:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\ProjectManagement.Core.csproj"
+            "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\ProjectManagement.Core.csproj": {
+              "projectPath": "E:\\Others\\ProjectManagement\\ProjectManagement_API\\ProjectManagement.Core\\ProjectManagement.Core.csproj"
             }
           }
         }

@@ -13,7 +13,10 @@ namespace ProjectManagement.Application.Mapper
     {
         public ProjectMemberMappingProfile()
         {
-            CreateMap<ProjectMember, ProjectMemberDto>();
+            CreateMap<ProjectMember, ProjectMemberDto>()
+                .ForMember(dest => dest.UserName, opt => opt.MapFrom(src => src.User.Name))
+                .ForMember(dest => dest.UserEmail, opt => opt.MapFrom(src => src.User.Email));
+
         }
     }
 }

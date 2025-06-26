@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage;
 using ProjectManagement.Core;
 using ProjectManagement.Infrastructure.Data;
 using ProjectManagement.Infrastructure.Interfaces;
@@ -22,6 +23,10 @@ namespace ProjectManagement.Infrastructure.Repositories
         public async Task<int> SaveChangesAsync()
         {
             return await _context.SaveChangesAsync();
+        }
+        public Task<IDbContextTransaction> BeginTransactionAsync()
+        {
+            return _context.Database.BeginTransactionAsync();
         }
 
         public void Dispose()

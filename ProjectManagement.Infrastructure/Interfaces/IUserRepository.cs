@@ -16,5 +16,6 @@ namespace ProjectManagement.Infrastructure.Interfaces
         Task<User> AddUserAsync(User user);
         Task<User> UpdateUserAsync(User user);
         Task<int> DeleteUserAsync(User user);
+        Task<IEnumerable<User>> GetUsersByIdsAsync(IEnumerable<int> userIds);
     }
 }
