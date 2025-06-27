@@ -20,6 +20,13 @@ namespace ProjectManagement.Core.Entities
         public Priority Priority { get; set; }
         public int AssignedUserId { get; set; } // Assigned user
         public virtual User AssignedUser { get; set; } = new User();
+        public int ProjectId { get; set; }
+        public int EpicId { get; set; }
+        public TaskTag Tag { get; set; }
+        public DateTime? StartDate { get; set; }
+        public DateTime? EndDate { get; set; }
+        public decimal? Estimate { get; set; }
+        public string? EstimateUnit { get; set; }
         public virtual ICollection<SprintTask> SprintTasks { get; set; } // Linking with Sprint
         public virtual ICollection<Comment> Comments { get; set; }
         public virtual ICollection<Attachment> Attachments { get; set; }
