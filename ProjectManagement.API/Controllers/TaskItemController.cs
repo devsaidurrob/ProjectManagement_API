@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using ProjectManagement.Application.Dto;
 using ProjectManagement.Application.UseCases.TaskDetails.Command;
+using ProjectManagement.Application.UseCases.TaskItemDetails.Command;
 using ProjectManagement.Application.UseCases.TaskItemDetails.Query;
 
 namespace ProjectManagement.API.Controllers
@@ -36,6 +37,11 @@ namespace ProjectManagement.API.Controllers
             var result = await _mediator.Send(new ChangeTaskStatusCommand(id, command.NewStatus));
             return result;
         }
-        
+        [HttpPost]
+        public async Task<ResponseDto<TaskItemDto>> CreateTask([FromBody] CreateTaskItemCommand command)
+        {
+            var result = await _mediator.Send(command);
+            return result;
+        }
     }
 }
