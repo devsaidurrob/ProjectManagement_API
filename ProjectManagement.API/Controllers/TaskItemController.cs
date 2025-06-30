@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using ProjectManagement.Application.Dto;
 using ProjectManagement.Application.UseCases.TaskDetails.Command;
+using ProjectManagement.Application.UseCases.TaskDetails.Query;
 using ProjectManagement.Application.UseCases.TaskItemDetails.Command;
 using ProjectManagement.Application.UseCases.TaskItemDetails.Query;
 
@@ -23,6 +24,12 @@ namespace ProjectManagement.API.Controllers
         public async Task<ResponseDto<IEnumerable<TaskItemDto>>> GetAllTask()
         {
             var result = await _mediator.Send(new GetAllTaskItemsQuery());
+            return result;
+        }
+        [HttpGet("by-project/{projectId}")]
+        public async Task<ResponseDto<IEnumerable<TaskItemDto>>> GetTaskByProject(int projectId)
+        {
+            var result = await _mediator.Send(new GetTaskByProjectIdQuery(projectId));
             return result;
         }
         [HttpGet("{id}")]

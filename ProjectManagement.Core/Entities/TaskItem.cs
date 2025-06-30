@@ -14,12 +14,10 @@ namespace ProjectManagement.Core.Entities
         public string Title { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
         public int StoryId { get; set; }
-        public virtual Story Story { get; set; } = new Story();
         public Enums.TaskStatus Status { get; set; }  // NEW
         public bool IsCompleted => Status == Enums.TaskStatus.Done; // Optional derived
         public Priority Priority { get; set; }
         public int AssignedUserId { get; set; } // Assigned user
-        public virtual User AssignedUser { get; set; } = new User();
         public int ProjectId { get; set; }
         public int EpicId { get; set; }
         public TaskTag Tag { get; set; }
@@ -27,6 +25,8 @@ namespace ProjectManagement.Core.Entities
         public DateTime? EndDate { get; set; }
         public decimal? Estimate { get; set; }
         public string? EstimateUnit { get; set; }
+        public virtual Story Story { get; set; }
+        public virtual User AssignedUser { get; set; }
         public virtual ICollection<SprintTask> SprintTasks { get; set; } // Linking with Sprint
         public virtual ICollection<Comment> Comments { get; set; }
         public virtual ICollection<Attachment> Attachments { get; set; }

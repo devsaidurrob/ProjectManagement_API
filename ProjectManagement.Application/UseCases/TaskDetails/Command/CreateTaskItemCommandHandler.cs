@@ -25,9 +25,15 @@ namespace ProjectManagement.Application.UseCases.TaskItemDetails.Command
         {
             var taskItem = _mapper.Map<TaskItem>(request);
             var addedTaskItem = await _taskItemRepository.AddTaskAsync(taskItem);
-            await _unitOfWork.SaveChangesAsync();
-            var taskItemDto = _mapper.Map<TaskItemDto>(addedTaskItem);
-            return ResponseDto<TaskItemDto>.SuccessResponse(taskItemDto);
+            int retVal = await _unitOfWork.SaveChangesAsync();
+            if(retVal > 0)
+            {
+                var createdTask = await _taskItemRepository.GetTaskByIdAsync(addedTaskItem.Id);
+                var taskItemDto = _mapper.Map<TaskItemDto>(createdTask);
+                return ResponseDto<TaskItemDto>.SuccessResponse(taskItemDto);
+            }
+            
+            return ResponseDto<TaskItemDto>.ErrorResponse();
         }
     }
 }

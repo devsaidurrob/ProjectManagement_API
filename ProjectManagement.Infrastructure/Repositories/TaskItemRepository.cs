@@ -33,6 +33,13 @@ namespace ProjectManagement.Infrastructure.Repositories
                 .Include(t => t.AssignedUser)
                 .ToListAsync();
         }
+        public async Task<IEnumerable<TaskItem>> GetTasksByProjectAsync(int projectId)
+        {
+            return await _context.Tasks
+                .Where(x => x.ProjectId == projectId)
+                .Include(t => t.AssignedUser)
+                .ToListAsync();
+        }
 
         public async Task<IEnumerable<TaskItem>> GetTasksByStoryIdAsync(int storyId)
         {
