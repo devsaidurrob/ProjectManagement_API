@@ -50,5 +50,19 @@ namespace ProjectManagement.API.Controllers
             var result = await _mediator.Send(command);
             return result;
         }
+        [HttpDelete("{id}")]
+        public async Task<ResponseDto<bool>> DeleteTask(int id)
+        {
+            var result = await _mediator.Send(new DeleteTaskItemCommand(id));
+            return result;
+        }
+
+
+        [HttpGet("comments/{taskId}")]
+        public async Task<ResponseDto<IEnumerable<CommentDto>>> GetTaskComments(int taskId)
+        {
+            var result = await _mediator.Send(new GetTaskCommentsQuery(taskId));
+            return result;
+        }
     }
 }

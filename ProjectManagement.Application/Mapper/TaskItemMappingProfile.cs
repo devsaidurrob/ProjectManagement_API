@@ -22,6 +22,10 @@ namespace ProjectManagement.Application.Mapper
                 .ForMember(dest => dest.Comments, opt => opt.Ignore())
                 .ForMember(dest => dest.Attachments, opt => opt.Ignore())
                 .ForMember(dest => dest.ActivityLogs, opt => opt.Ignore());
+
+            CreateMap<Comment, CommentDto>()
+                .ForMember(dest => dest.UserName, opt => opt.MapFrom(src => src.User.Name))
+                .ForMember(dest => dest.UserFullName, opt => opt.MapFrom(src => src.User.Name));
         }
     }
 }

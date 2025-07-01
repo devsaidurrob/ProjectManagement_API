@@ -13,6 +13,7 @@ namespace ProjectManagement.Infrastructure.Interfaces
         Task<TaskItem> AddTaskAsync(TaskItem Tasks);
         Task<TaskItem?> UpdateTaskAsync(TaskItem Tasks);
         Task<TaskItem?> DeleteTaskAsync(int id);
+        Task<IEnumerable<Comment>> GetTaskComments(int taskId);
     }
 }
 
