@@ -7,13 +7,16 @@ using System.Threading.Tasks;
 
 namespace ProjectManagement.Core.Entities
 {
-    public class User
+    public class Team
     {
         [Key]
         public int Id { get; set; }
+
         public string Name { get; set; } = string.Empty;
-        public string Email { get; set; } = string.Empty;
-        public string PasswordHash { get; set; } = string.Empty;
-        public virtual ICollection<Project> Projects { get; set; }
+
+        public int CompanyId { get; set; }
+        public Company Company { get; set; }
+
+        public ICollection<UserTeam> UserTeams { get; set; }
     }
 }

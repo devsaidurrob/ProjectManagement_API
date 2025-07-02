@@ -46,7 +46,7 @@ namespace ProjectManagement.Application.UseCases.ProjectDetails.Commands
                 Description = command.Description,
                 StartDate = command.StartDate,
                 EndDate = command.EndDate,
-                OwnerId = 1
+                CompanyId = 1
             };
 
             // Step 2: Begin transaction

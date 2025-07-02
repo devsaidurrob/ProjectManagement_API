@@ -26,7 +26,7 @@ namespace ProjectManagement.Core.Entities
         public decimal? Estimate { get; set; }
         public string? EstimateUnit { get; set; }
         public virtual Story Story { get; set; }
-        public virtual User AssignedUser { get; set; }
+        public virtual AppUser AssignedUser { get; set; }
         public virtual ICollection<SprintTask> SprintTasks { get; set; } // Linking with Sprint
         public virtual ICollection<Comment> Comments { get; set; }
         public virtual ICollection<Attachment> Attachments { get; set; }

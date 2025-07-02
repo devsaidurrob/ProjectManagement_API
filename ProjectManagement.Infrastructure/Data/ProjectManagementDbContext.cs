@@ -21,20 +21,26 @@ namespace ProjectManagement.Infrastructure.Data
         public DbSet<TaskItem> Tasks { get; set; }
         public DbSet<Sprint> Sprints { get; set; }
         public DbSet<SprintTask> SprintTasks { get; set; }
-        public DbSet<User> Users { get; set; }
+        public DbSet<AppUser> Users { get; set; }
         public DbSet<ProjectMember> ProjectMembers { get; set; }
         public DbSet<AcceptanceCriteria> AcceptanceCriterias { get; set; }
         public DbSet<Comment> Comments { get; set; }
         public DbSet<Attachment> Attachments { get; set; }
         public DbSet<ActivityLog> ActivityLogs { get; set; }
 
+        public DbSet<AppUserRole> UserRoles { get; set; }
+        public DbSet<Team> Teams { get; set; }
+        public DbSet<UserTeam> UserTeams { get; set; }
+        public DbSet<Company> Companies { get; set; }
+        public DbSet<AppRole> Roles { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // Project and User Relationship (Owner)
             modelBuilder.Entity<Project>()
-                .HasOne<User>()
+                .HasOne<AppUser>()
                 .WithMany()
-                .HasForeignKey(p => p.OwnerId);
+                .HasForeignKey(p => p.CompanyId);
 
             // Project Members (Many-to-Many between Users and Projects)
             modelBuilder.Entity<ProjectMember>()
@@ -128,6 +134,81 @@ namespace ProjectManagement.Infrastructure.Data
                 .WithMany()
                 .HasForeignKey(al => al.UserId)
                 .OnDelete(DeleteBehavior.Restrict);
+
+            // AppUser - Unique Indexes
+            modelBuilder.Entity<AppUser>()
+                .HasIndex(u => u.Username)
+                .IsUnique();
+
+            modelBuilder.Entity<AppUser>()
+                .HasIndex(u => u.Email)
+                .IsUnique();
+
+            modelBuilder.Entity<AppUser>()
+                .HasIndex(u => u.MobileNumber)
+                .IsUnique();
+
+            // AppUserRole - Composite PK
+            modelBuilder.Entity<AppUserRole>()
+                .HasKey(ur => new { ur.UserId, ur.RoleId });
+
+            modelBuilder.Entity<AppUserRole>()
+                .HasOne(ur => ur.User)
+                .WithMany(u => u.UserRoles)
+                .HasForeignKey(ur => ur.UserId);
+
+            modelBuilder.Entity<AppUserRole>()
+                .HasOne(ur => ur.Role)
+                .WithMany(r => r.UserRoles)
+                .HasForeignKey(ur => ur.RoleId);
+
+            // ProjectMember - Composite PK
+            modelBuilder.Entity<ProjectMember>()
+                .HasIndex(pm => new { pm.ProjectId, pm.UserId })
+                .IsUnique();
+
+            modelBuilder.Entity<ProjectMember>()
+                .HasOne(pm => pm.Project)
+                .WithMany(p => p.ProjectMembers)
+                .HasForeignKey(pm => pm.ProjectId);
+
+            modelBuilder.Entity<ProjectMember>()
+                .HasOne(pm => pm.User)
+                .WithMany(u => u.ProjectMembers)
+                .HasForeignKey(pm => pm.UserId);
+
+            // UserTeam - Composite PK
+            modelBuilder.Entity<UserTeam>()
+                .HasKey(ut => new { ut.TeamId, ut.UserId });
+
+            modelBuilder.Entity<UserTeam>()
+                .HasOne(ut => ut.Team)
+                .WithMany(t => t.UserTeams)
+                .HasForeignKey(ut => ut.TeamId);
+
+            modelBuilder.Entity<UserTeam>()
+                .HasOne(ut => ut.User)
+                .WithMany()
+                .HasForeignKey(ut => ut.UserId);
+
+            // Team → Company
+            modelBuilder.Entity<Team>()
+                .HasOne(t => t.Company)
+                .WithMany(c => c.Teams)
+                .HasForeignKey(t => t.CompanyId);
+
+            // Project → Company
+            modelBuilder.Entity<Project>()
+                .HasOne(p => p.Company)
+                .WithMany(c => c.Projects)
+                .HasForeignKey(p => p.CompanyId);
+
+            // AppUser → Company
+            modelBuilder.Entity<AppUser>()
+                .HasOne<Company>()
+                .WithMany(c => c.Users)
+                .HasForeignKey(u => u.CompanyId);
+
         }
 
 

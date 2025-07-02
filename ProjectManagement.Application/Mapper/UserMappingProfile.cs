@@ -9,8 +9,8 @@ namespace ProjectManagement.Application.Mapper
     {
         public UserMappingProfile()
         {
-            CreateMap<User, UserDto>();
-            CreateMap<CreateUserCommand, User>();
+            CreateMap<AppUser, UserDto>();
+            CreateMap<CreateUserCommand, AppUser>();
         }
     }
 }

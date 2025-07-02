@@ -34,7 +34,7 @@ namespace ProjectManagement.Application.UseCases.ProjectDetails.Commands
             existingProject.Description = command.Description;
             existingProject.StartDate = command.StartDate;
             existingProject.EndDate = command.EndDate;
-            existingProject.OwnerId = command.OwnerId;
+            //existingProject.CompanyId = 1;
 
             var updatedProject = await _projectRepository.UpdateProjectAsync(existingProject);
             await _unitOfWork.SaveChangesAsync();

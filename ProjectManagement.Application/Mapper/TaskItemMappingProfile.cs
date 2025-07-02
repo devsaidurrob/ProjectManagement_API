@@ -11,7 +11,7 @@ namespace ProjectManagement.Application.Mapper
         public TaskItemMappingProfile()
         {
             CreateMap<TaskItem, TaskItemDto>()
-                .ForMember(dest => dest.AssignedUserFullName, opt => opt.MapFrom(src => src.AssignedUser.Name));
+                .ForMember(dest => dest.AssignedUserFullName, opt => opt.MapFrom(src => src.AssignedUser.Username));
 
             CreateMap<TaskItemDto, TaskItem>();
 
@@ -24,8 +24,8 @@ namespace ProjectManagement.Application.Mapper
                 .ForMember(dest => dest.ActivityLogs, opt => opt.Ignore());
 
             CreateMap<Comment, CommentDto>()
-                .ForMember(dest => dest.UserName, opt => opt.MapFrom(src => src.User.Name))
-                .ForMember(dest => dest.UserFullName, opt => opt.MapFrom(src => src.User.Name));
+                .ForMember(dest => dest.UserName, opt => opt.MapFrom(src => src.User.Username))
+                .ForMember(dest => dest.UserFullName, opt => opt.MapFrom(src => src.User.Username));
         }
     }
 }
