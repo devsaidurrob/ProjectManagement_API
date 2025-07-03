@@ -24,7 +24,7 @@ namespace ProjectManagement.Application.UseCases.UserDetails.Command
         public async Task<ResponseDto<UserDto>> Handle(CreateUserCommand request, CancellationToken cancellationToken)
         {
             request.PasswordHash = _passwordHasher.HashPassword(request.Password);
-            var user = _mapper.Map<User>(request);
+            var user = _mapper.Map<AppUser>(request);
 
             var addedUser = await _userRepository.AddUserAsync(user);
             var userDto = _mapper.Map<UserDto>(addedUser);

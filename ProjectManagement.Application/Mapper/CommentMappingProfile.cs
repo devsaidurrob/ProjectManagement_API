@@ -14,7 +14,7 @@ namespace ProjectManagement.Application.Mapper
         public CommentMappingProfile()
         {
             CreateMap<Comment, CommentDto>()
-                .ForMember(dest => dest.UserFullName, opt => opt.MapFrom(src => src.User.Name));
+                .ForMember(dest => dest.UserFullName, opt => opt.MapFrom(src => src.User.FullName));
         }
     }
 }

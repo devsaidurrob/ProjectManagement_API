@@ -1,12 +1,17 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using ProjectManagement.API.Middlewares;
+using ProjectManagement.API.Utility;
 using ProjectManagement.Application.Extensions;
 using ProjectManagement.Infrastructure.Data;
 using ProjectManagement.Infrastructure.Extensions;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
 var _configuration = builder.Configuration;
-
+var jwtSecret = _configuration["Jwt:Key"];
 // Add services to the container.
 
 builder.Services.AddDbContext<ProjectManagementDbContext>(options =>
@@ -27,7 +32,25 @@ builder.Services.AddCors(options =>
     });
 });
 
-builder.Services.AddControllers();
+//builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+//    .AddJwtBearer(options =>
+//    {
+//        options.TokenValidationParameters = new TokenValidationParameters
+//        {
+//            ValidateIssuer = false,
+//            ValidateAudience = false,
+//            ValidateLifetime = true,
+//            ClockSkew = TimeSpan.Zero,
+//            ValidateIssuerSigningKey = true,
+//            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSecret))
+//        };
+//    });
+//builder.Services.AddAuthorization(); // <- Required
+
+builder.Services.AddControllers(options =>
+{
+    options.Filters.Add(new Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter());
+});
 //.AddJsonOptions(x =>
 //{
 //    x.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
@@ -37,8 +60,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
 builder.Services.AddRepositories();
 builder.Services.AddApplicationServices();
+
+builder.Services.AddSingleton<JwtService>();
 
 var app = builder.Build();
 
@@ -50,7 +76,8 @@ if (app.Environment.IsDevelopment())
 }
 // Use CORS
 app.UseCors("AllowLocalHost3000"); // 🔥 Add this before UseAuthorization()
-
+app.UseMiddleware<JwtMiddleware>();
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

@@ -15,7 +15,7 @@ namespace ProjectManagement.Core.Entities
         public int TaskItemId { get; set; }
         public virtual TaskItem TaskItem { get; set; }
         public int UserId { get; set; }
-        public virtual User User { get; set; }
+        public virtual AppUser User { get; set; }
         public DateTime CreatedAt { get; set; }
     }
 }

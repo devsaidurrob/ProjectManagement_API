@@ -18,7 +18,7 @@ namespace ProjectManagement.Core.Entities
 
         // Foreign key for User
         public int UserId { get; set; }
-        public virtual User User { get; set; } = null!; // Added non-nullable default value
+        public virtual AppUser User { get; set; } = null!; // Added non-nullable default value
 
         // Role (e.g., Developer, Tester, Manager)
         public string Role { get; set; } = string.Empty; // Added default value

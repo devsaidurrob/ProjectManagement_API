@@ -37,12 +37,13 @@ namespace ProjectManagement.Infrastructure.Repositories
 
         public async Task<IEnumerable<Project>> GetProjectByUser(int userId)
         {
-            return await _context.Projects
-                .Where(p => p.OwnerId == userId)
-                .Include(p => p.Epics)
-                .Include(p => p.Sprints)
-                .Include(p => p.ProjectMembers)
-                .ToListAsync();
+            //return await _context.Projects
+            //    .Where(p => p.OwnerId == userId)
+            //    .Include(p => p.Epics)
+            //    .Include(p => p.Sprints)
+            //    .Include(p => p.ProjectMembers)
+            //    .ToListAsync();
+            return new List<Project>(); // Placeholder for actual implementation
         }
 
         public async Task<Project> AddProjectAsync(Project project)

@@ -78,6 +78,12 @@ namespace ProjectManagement.Infrastructure.Repositories
             await _context.ProjectMembers.AddRangeAsync(projectMembers);
             return projectMembers;
         }
+        public IEnumerable<ProjectMember> RemoveProjectMembers(IEnumerable<ProjectMember> projectMembers)
+        {
+            _context.ProjectMembers.RemoveRange(projectMembers);
+            return projectMembers;
+        }
+
     }
 }
 

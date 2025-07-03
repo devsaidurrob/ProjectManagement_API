@@ -27,7 +27,7 @@ namespace ProjectManagement.Application.UseCases.UserDetails.Command
                 return ResponseDto<UserDto>.ErrorResponse("User not found", 404);
             }
 
-            user.Name = request.Name;
+            //user.Name = request.Name;
             user.Email = request.Email;
             user.PasswordHash = request.PasswordHash;
 

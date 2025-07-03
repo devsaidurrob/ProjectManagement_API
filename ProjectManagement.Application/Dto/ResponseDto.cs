@@ -27,6 +27,16 @@ namespace ProjectManagement.Application.Dto
                 Data = data
             };
         }
+        public static ResponseDto<IEnumerable<T>> SuccessResponse(IEnumerable<T> data, int statusCode = 200, string message = "Operation successful")
+        {
+            return new ResponseDto<IEnumerable<T>>
+            {
+                Success = true,
+                Message = message,
+                StatusCode = statusCode,
+                Data = data
+            };
+        }
 
         public static ResponseDto<T> ErrorResponse(string message = "An Error Occured", int errorCode = 500)
         {

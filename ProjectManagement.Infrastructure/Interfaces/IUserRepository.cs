@@ -9,13 +9,14 @@ namespace ProjectManagement.Infrastructure.Interfaces
 {
     public interface IUserRepository
     {
-        Task<IEnumerable<User>> GetAllUsersAsync();
-        Task<User> GetUserByIdAsync(int id);
-        Task<User> GetUserByEmailAsync(string email);
-        Task<User> GetUserByUserNameAsync(string email);
-        Task<User> AddUserAsync(User user);
-        Task<User> UpdateUserAsync(User user);
-        Task<int> DeleteUserAsync(User user);
-        Task<IEnumerable<User>> GetUsersByIdsAsync(IEnumerable<int> userIds);
+        Task<IEnumerable<AppUser>> GetAllUsersAsync();
+        Task<AppUser> GetUserByIdAsync(int id);
+        Task<AppUser?> GetUserByEmailAsync(string email);
+        Task<AppUser?> GetUserByUserNameAsync(string email);
+        Task<AppUser> AddUserAsync(AppUser user);
+        Task<AppUser> UpdateUserAsync(AppUser user);
+        Task<int> DeleteUserAsync(AppUser user);
+        Task<IEnumerable<AppUser>> GetUsersByIdsAsync(IEnumerable<int> userIds);
+        Task<AppUser?> FindByIdentifier(string identifier);
     }
 }

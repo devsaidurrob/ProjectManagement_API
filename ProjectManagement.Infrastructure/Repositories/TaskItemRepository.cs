@@ -33,6 +33,13 @@ namespace ProjectManagement.Infrastructure.Repositories
                 .Include(t => t.AssignedUser)
                 .ToListAsync();
         }
+        public async Task<IEnumerable<TaskItem>> GetTasksByProjectAsync(int projectId)
+        {
+            return await _context.Tasks
+                .Where(x => x.ProjectId == projectId)
+                .Include(t => t.AssignedUser)
+                .ToListAsync();
+        }
 
         public async Task<IEnumerable<TaskItem>> GetTasksByStoryIdAsync(int storyId)
         {
@@ -68,15 +75,33 @@ namespace ProjectManagement.Infrastructure.Repositories
 
         public async Task<TaskItem?> DeleteTaskAsync(int id)
         {
-            var existingTaskItem = await _context.Tasks.FindAsync(id);
+            var existingTaskItem = await _context.Tasks
+                                .Include(t => t.Attachments)
+                                .Include(t => t.Comments)
+                                .Include(t => t.SprintTasks)
+                                .Include(t => t.ActivityLogs)
+                                .FirstOrDefaultAsync(t => t.Id == id);
 
             if (existingTaskItem == null)
-            {
-                return null; // Or throw an exception
-            }
+                return null;
+
+            // Optional: delete related entities if not using cascade delete
+            _context.Attachments.RemoveRange(existingTaskItem.Attachments);
+            _context.Comments.RemoveRange(existingTaskItem.Comments);
+            _context.SprintTasks.RemoveRange(existingTaskItem.SprintTasks);
+            _context.ActivityLogs.RemoveRange(existingTaskItem.ActivityLogs);
 
             _context.Tasks.Remove(existingTaskItem);
+
             return existingTaskItem;
+        }
+
+        public async Task<IEnumerable<Comment>> GetTaskComments(int taskId)
+        {
+            return await _context.Comments
+                .Where(x => x.TaskItemId == taskId)
+                .Include(t => t.User)
+                .ToListAsync();
         }
     }
 }
