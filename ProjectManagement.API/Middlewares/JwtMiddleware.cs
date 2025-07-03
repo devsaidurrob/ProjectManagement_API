@@ -1,8 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.IdentityModel.Tokens;
+using ProjectManagement.Application.Dto;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using System.Text.Json;
 
 namespace ProjectManagement.API.Middlewares
 {
@@ -35,9 +37,8 @@ namespace ProjectManagement.API.Middlewares
 
             if (string.IsNullOrEmpty(token))
             {
-                context.Response.StatusCode = StatusCodes.Status401Unauthorized;
-                await context.Response.WriteAsync("Token is missing");
-                return; // short-circuit pipeline
+                await WriteErrorResponseAsync(context, "Authorization token is missing", StatusCodes.Status401Unauthorized);
+                return;
             }
 
             try
@@ -71,19 +72,26 @@ namespace ProjectManagement.API.Middlewares
             }
             catch (SecurityTokenException ste)
             {
-                context.Response.StatusCode = StatusCodes.Status401Unauthorized;
-
-                await context.Response.WriteAsync($"Invalid token: {ste.Message}");
-                return; // short-circuit pipeline
+                await WriteErrorResponseAsync(context, $"Invalid token: {ste.Message}", StatusCodes.Status401Unauthorized);
+                return;
             }
             catch (Exception ex)
             {
-                context.Response.StatusCode = StatusCodes.Status401Unauthorized;
-                await context.Response.WriteAsync($"Authentication error: {ex.Message}");
-                return; // short-circuit pipeline
+                await WriteErrorResponseAsync(context, $"Authentication error: {ex.Message}", StatusCodes.Status401Unauthorized);
+                return;
             }
 
             await _next(context);
+        }
+        private static async Task WriteErrorResponseAsync(HttpContext context, string message, int statusCode)
+        {
+            context.Response.ContentType = "application/json";
+            context.Response.StatusCode = statusCode;
+
+            var errorResponse = ResponseDto<string>.ErrorResponse(message, statusCode);
+            var json = JsonSerializer.Serialize(errorResponse);
+
+            await context.Response.WriteAsync(json);
         }
     }
 }

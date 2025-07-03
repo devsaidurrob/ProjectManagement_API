@@ -23,6 +23,7 @@ namespace ProjectManagement.Infrastructure.Repositories
         {
             return await _context.Projects
                 .Include(p => p.Epics)
+                .ThenInclude(s => s.Stories)
                 .Include(p => p.Sprints)
                 .Include(p => p.ProjectMembers)
                 .FirstOrDefaultAsync(p => p.Id == id);

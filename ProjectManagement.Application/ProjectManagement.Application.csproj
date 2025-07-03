@@ -7,8 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Security\**" />
+    <EmbeddedResource Remove="Security\**" />
+    <None Remove="Security\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Behaviors\" />
-    <Folder Include="Security\" />
     <Folder Include="UseCases\ProjectDetails\Commands\" />
     <Folder Include="UseCases\ProjectDetails\Query\" />
     <Folder Include="UseCases\UserDetails\Command\" />

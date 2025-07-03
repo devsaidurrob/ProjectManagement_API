@@ -74,7 +74,7 @@ app.UseCors("AllowLocalHost3000"); // 🔥 Add this before UseAuthorization()
 app.UseMiddleware<JwtMiddleware>();
 app.UseAuthentication();
 app.UseAuthorization();
-
+app.UseMiddleware<ExceptionMiddleware>();
 app.MapControllers();
 
 app.Run();
