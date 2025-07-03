@@ -7,7 +7,7 @@ using AutoMapper;
 using MediatR;
 using ProjectManagement.Application.Dto;
 using ProjectManagement.Application.UseCases.TaskItemDetails.Query;
-using ProjectManagement.Infrastructure.Interfaces;
+using ProjectManagement.Application.Interfaces;
 
 namespace ProjectManagement.Application.UseCases.TaskDetails.Query
 {

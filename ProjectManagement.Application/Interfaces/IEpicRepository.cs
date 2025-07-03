@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using ProjectManagement.Core.Entities;
 
-namespace ProjectManagement.Infrastructure.Interfaces
+namespace ProjectManagement.Application.Interfaces
 {
     public interface IEpicRepository
     {

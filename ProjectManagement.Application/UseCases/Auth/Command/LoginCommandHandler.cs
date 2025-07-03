@@ -8,7 +8,6 @@ using MediatR;
 using ProjectManagement.Application.Dto;
 using ProjectManagement.Application.Interfaces;
 using ProjectManagement.Core.Entities;
-using ProjectManagement.Infrastructure.Interfaces;
 
 namespace ProjectManagement.Application.UseCases.Auth.Command
 {
@@ -17,11 +16,13 @@ namespace ProjectManagement.Application.UseCases.Auth.Command
         private readonly IUserRepository _repository;
         private readonly IMapper _mapper;
         private readonly IPasswordHasher _passwordHasher;
-        public LoginCommandHandler(IUserRepository userRepository, IMapper mapper, IPasswordHasher passwordHasher)
+        private readonly IJwtService _jwtService;
+        public LoginCommandHandler(IUserRepository userRepository, IMapper mapper, IPasswordHasher passwordHasher, IJwtService jwtService)
         {
             _repository = userRepository;
             _mapper = mapper;
             _passwordHasher = passwordHasher;
+            _jwtService = jwtService;
         }
 
         public async Task<ResponseDto<AuthResultDto>> Handle(LoginCommand request, CancellationToken cancellationToken)
@@ -33,7 +34,11 @@ namespace ProjectManagement.Application.UseCases.Auth.Command
                 return ResponseDto<AuthResultDto>.ErrorResponse("Invalid UserName or Email", 401);
             if (_passwordHasher.VerifyPassword(request.Password, user.PasswordHash))
             {
-                return ResponseDto<AuthResultDto>.SuccessResponse(_mapper.Map<AuthResultDto>(user));
+                var userDto = _mapper.Map<AuthResultDto>(user);
+                // Generate JWT Token
+                userDto.Token = _jwtService.GenerateToken(userDto);
+
+                return ResponseDto<AuthResultDto>.SuccessResponse(userDto);
             }
             else
             {

@@ -2,7 +2,7 @@ using ProjectManagement.Core.Entities;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace ProjectManagement.Infrastructure.Interfaces
+namespace ProjectManagement.Application.Interfaces
 {
     public interface IStoryRepository
     {

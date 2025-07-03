@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ProjectManagement.Core.Entities;
 
-namespace ProjectManagement.Infrastructure.Interfaces
+namespace ProjectManagement.Application.Interfaces
 {
     public interface IUserRepository
     {

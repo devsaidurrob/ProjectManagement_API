@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
 using ProjectManagement.Core;
 using ProjectManagement.Infrastructure.Data;
-using ProjectManagement.Infrastructure.Interfaces;
+using ProjectManagement.Application.Interfaces;
 
 namespace ProjectManagement.Infrastructure.Repositories
 {

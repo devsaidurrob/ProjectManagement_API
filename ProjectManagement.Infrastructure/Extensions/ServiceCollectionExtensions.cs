@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using ProjectManagement.Infrastructure.Interfaces;
+using ProjectManagement.Application.Interfaces;
 using ProjectManagement.Infrastructure.Repositories;
+using ProjectManagement.Infrastructure.Services;
 
 namespace ProjectManagement.Infrastructure.Extensions
 {
@@ -8,6 +9,13 @@ namespace ProjectManagement.Infrastructure.Extensions
     {
         public static IServiceCollection AddRepositories(this IServiceCollection services)
         {
+            //------------------- User Service ----------------------------------
+            //services.AddScoped<IUserService, UserService>();
+            //services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddScoped<IPasswordHasher, PasswordHasher>();
+            services.AddSingleton<IJwtService, JwtService>();
+
+
             // Register your generic repository
             //services.AddScoped(typeof(IGenericRepository<,>), typeof(GenericRepository<,>));
             services.AddScoped<IUnitOfWork, UnitOfWork>();

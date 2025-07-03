@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore.Storage;
 using ProjectManagement.Core;
 
-namespace ProjectManagement.Infrastructure.Interfaces
+namespace ProjectManagement.Application.Interfaces
 {
     public interface IUnitOfWork : IDisposable
     {

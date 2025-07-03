@@ -7,6 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Behaviors\" />
+    <Folder Include="Security\" />
     <Folder Include="UseCases\ProjectDetails\Commands\" />
     <Folder Include="UseCases\ProjectDetails\Query\" />
     <Folder Include="UseCases\UserDetails\Command\" />
@@ -18,11 +20,12 @@
     <PackageReference Include="MediatR" Version="12.4.1" />
     <PackageReference Include="MediatR.Contracts" Version="2.0.1" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.14" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="7.1.2" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\ProjectManagement.Core\ProjectManagement.Core.csproj" />
-    <ProjectReference Include="..\ProjectManagement.Infrastructure\ProjectManagement.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using ProjectManagement.Core.Entities;
 using ProjectManagement.Infrastructure.Data;
-using ProjectManagement.Infrastructure.Interfaces;
+using ProjectManagement.Application.Interfaces;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 

@@ -2,7 +2,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using ProjectManagement.API.Middlewares;
-using ProjectManagement.API.Utility;
 using ProjectManagement.Application.Extensions;
 using ProjectManagement.Infrastructure.Data;
 using ProjectManagement.Infrastructure.Extensions;
@@ -47,10 +46,7 @@ builder.Services.AddCors(options =>
 //    });
 //builder.Services.AddAuthorization(); // <- Required
 
-builder.Services.AddControllers(options =>
-{
-    options.Filters.Add(new Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter());
-});
+builder.Services.AddControllers();
 //.AddJsonOptions(x =>
 //{
 //    x.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
@@ -64,7 +60,6 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddRepositories();
 builder.Services.AddApplicationServices();
 
-builder.Services.AddSingleton<JwtService>();
 
 var app = builder.Build();
 

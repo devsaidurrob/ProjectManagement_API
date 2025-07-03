@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjectManagement.Application.Utility
+namespace ProjectManagement.Infrastructure.Services
 {
     internal class PasswordHasher : IPasswordHasher
     {

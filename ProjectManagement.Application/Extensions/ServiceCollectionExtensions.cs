@@ -8,7 +8,6 @@ using Microsoft.Extensions.DependencyInjection;
 using ProjectManagement.Application.Interfaces;
 using ProjectManagement.Application.Mapper;
 using ProjectManagement.Application.UseCases.UserDetails.Query;
-using ProjectManagement.Application.Utility;
 
 namespace ProjectManagement.Application.Extensions
 {
@@ -21,7 +20,7 @@ namespace ProjectManagement.Application.Extensions
             //------------------- User Service ----------------------------------
             //services.AddScoped<IUserService, UserService>();
             //services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-            services.AddScoped<IPasswordHasher, PasswordHasher>();
+            
 
 
             //------------------- Authentication ----------------------------------

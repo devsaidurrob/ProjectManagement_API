@@ -1,7 +1,7 @@
 using AutoMapper;
 using MediatR;
 using ProjectManagement.Application.Dto;
-using ProjectManagement.Infrastructure.Interfaces;
+using ProjectManagement.Application.Interfaces;
 using System.Threading;
 using System.Threading.Tasks;
 

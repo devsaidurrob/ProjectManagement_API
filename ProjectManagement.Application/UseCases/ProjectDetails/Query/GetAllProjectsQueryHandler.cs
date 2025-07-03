@@ -1,6 +1,6 @@
 using MediatR;
 using ProjectManagement.Core.Entities;
-using ProjectManagement.Infrastructure.Interfaces;
+using ProjectManagement.Application.Interfaces;
 using ProjectManagement.Application.UseCases.ProjectDetails.Query;
 using System.Collections.Generic;
 using System.Threading;

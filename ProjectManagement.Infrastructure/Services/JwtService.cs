@@ -1,12 +1,14 @@
-﻿using Microsoft.IdentityModel.Tokens;
+﻿using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
 using ProjectManagement.Application.Dto;
+using ProjectManagement.Application.Interfaces;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace ProjectManagement.API.Utility
+namespace ProjectManagement.Infrastructure.Services
 {
-    public class JwtService
+    public class JwtService : IJwtService
     {
         private readonly IConfiguration _configuration;
         public JwtService(IConfiguration configuration)
@@ -49,6 +51,11 @@ namespace ProjectManagement.API.Utility
             return token;
         }
 
+        public int? GetUserIdFromToken(string token)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool ValidateToken(string token, out int userId)
         {
             userId = 0;
@@ -86,5 +93,6 @@ namespace ProjectManagement.API.Utility
 
             return false;
         }
+
     }
 }

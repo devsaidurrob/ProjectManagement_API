@@ -8,8 +8,6 @@ using MediatR;
 using ProjectManagement.Application.Dto;
 using ProjectManagement.Application.Interfaces;
 using ProjectManagement.Core.Entities;
-using ProjectManagement.Infrastructure.Interfaces;
-using ProjectManagement.Infrastructure.Repositories;
 
 namespace ProjectManagement.Application.UseCases.Auth.Command
 {
